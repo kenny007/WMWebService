@@ -1,0 +1,1788 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="WMDBDEMOModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="PayEmployees">
+          <Key>
+            <PropertyRef Name="CompanyID" />
+            <PropertyRef Name="DivisionID" />
+            <PropertyRef Name="DepartmentID" />
+            <PropertyRef Name="EmployeeID" />
+          </Key>
+          <Property Name="CompanyID" Type="nvarchar" MaxLength="36" Nullable="false" />
+          <Property Name="DivisionID" Type="nvarchar" MaxLength="36" Nullable="false" />
+          <Property Name="DepartmentID" Type="nvarchar" MaxLength="36" Nullable="false" />
+          <Property Name="EmployeeID" Type="nvarchar" MaxLength="36" Nullable="false" />
+          <Property Name="EmployeeTypeID" Type="nvarchar" MaxLength="36" Nullable="false" />
+          <Property Name="EmployeeTitle" Type="nvarchar" MaxLength="24" />
+          <Property Name="LastName" Type="nvarchar" MaxLength="24" Nullable="false" />
+          <Property Name="MiddleName" Type="nvarchar" MaxLength="24" />
+          <Property Name="FirstName" Type="nvarchar" MaxLength="24" Nullable="false" />
+          <Property Name="EmployeeCategoryID" Type="nvarchar" MaxLength="36" Nullable="false" />
+          <Property Name="EmployeeUserName" Type="nvarchar" MaxLength="15" />
+          <Property Name="EmployeePassword" Type="nvarchar" MaxLength="15" />
+          <Property Name="EmployeePasswordOld" Type="nvarchar" MaxLength="15" />
+          <Property Name="EmployeePasswordDate" Type="datetime" />
+          <Property Name="EmployeePasswordExpires" Type="bit" />
+          <Property Name="BankID" Type="nvarchar" MaxLength="16" />
+          <Property Name="BankAccountNo" Type="nvarchar" MaxLength="16" />
+          <Property Name="BankID2" Type="nvarchar" MaxLength="16" />
+          <Property Name="BankAccountNo2" Type="nvarchar" MaxLength="16" />
+          <Property Name="Nationality" Type="nvarchar" MaxLength="20" />
+          <Property Name="EthnicGroup" Type="nvarchar" MaxLength="16" />
+          <Property Name="Religion" Type="nvarchar" MaxLength="16" />
+          <Property Name="Gender" Type="nvarchar" MaxLength="6" />
+          <Property Name="MaritalStatus" Type="nvarchar" MaxLength="16" />
+          <Property Name="NoOfChildren" Type="int" />
+          <Property Name="NOfDependant" Type="int" />
+          <Property Name="BloodGroup" Type="nvarchar" MaxLength="3" />
+          <Property Name="Genotype" Type="nvarchar" MaxLength="3" />
+          <Property Name="EmployeeWeight" Type="real" />
+          <Property Name="EmployeeHeight" Type="real" />
+          <Property Name="StatusID" Type="nvarchar" MaxLength="16" Nullable="false" />
+          <Property Name="JobRole" Type="nvarchar" MaxLength="16" />
+          <Property Name="JobCategory" Type="nvarchar" MaxLength="16" />
+          <Property Name="ActiveYN" Type="bit" />
+          <Property Name="EmployeeAddress1" Type="nvarchar" MaxLength="50" />
+          <Property Name="EmployeeAddress2" Type="nvarchar" MaxLength="50" />
+          <Property Name="EmployeeCity" Type="nvarchar" MaxLength="50" />
+          <Property Name="EmployeeState" Type="nvarchar" MaxLength="50" />
+          <Property Name="EmployeeCountry" Type="nvarchar" MaxLength="50" />
+          <Property Name="EmployeePhone" Type="nvarchar" MaxLength="30" />
+          <Property Name="EmployeeFax" Type="nvarchar" MaxLength="30" />
+          <Property Name="EmployeeNationalID" Type="nvarchar" MaxLength="15" />
+          <Property Name="EmployeeEmailAddress" Type="nvarchar" MaxLength="60" />
+          <Property Name="EmployeeDepartmentID" Type="nvarchar" MaxLength="36" />
+          <Property Name="EmployeeSection" Type="nvarchar" MaxLength="36" />
+          <Property Name="EmployeeRegionID" Type="nvarchar" MaxLength="36" />
+          <Property Name="EmployeeBranchID" Type="nvarchar" MaxLength="36" />
+          <Property Name="EmployeeSourceID" Type="nvarchar" MaxLength="36" />
+          <Property Name="EmployeeIndustryID" Type="nvarchar" MaxLength="36" />
+          <Property Name="EmployeeManager" Type="nvarchar" MaxLength="36" />
+          <Property Name="PictureURL" Type="nvarchar" MaxLength="80" />
+          <Property Name="HireDate" Type="datetime" />
+          <Property Name="Birthday" Type="datetime" />
+          <Property Name="DateConfirmed" Type="datetime" />
+          <Property Name="Commissionable" Type="bit" />
+          <Property Name="CommissionPerc" Type="float" />
+          <Property Name="CommissionCalcMethod" Type="nvarchar" MaxLength="1" />
+          <Property Name="GradeId" Type="nvarchar" MaxLength="16" />
+          <Property Name="GradeStep" Type="nvarchar" MaxLength="10" />
+          <Property Name="NextOfKinName" Type="nvarchar" MaxLength="50" />
+          <Property Name="NextOfKinAddr1" Type="nvarchar" MaxLength="50" />
+          <Property Name="NextOfKinAddr2" Type="nvarchar" MaxLength="50" />
+          <Property Name="NextOfKinNumber" Type="nvarchar" MaxLength="30" />
+          <Property Name="PermanetAddress1" Type="nvarchar" MaxLength="50" />
+          <Property Name="PermanetAddress2" Type="nvarchar" MaxLength="50" />
+          <Property Name="NSITFEnabled" Type="bit" />
+          <Property Name="NSITFNumber" Type="nvarchar" MaxLength="20" />
+          <Property Name="NSITFStartDate" Type="datetime" />
+          <Property Name="NHFEnabled" Type="bit" />
+          <Property Name="NHFNumber" Type="nvarchar" MaxLength="20" />
+          <Property Name="NHFStartDate" Type="datetime" />
+          <Property Name="TaxExcempted" Type="bit" />
+          <Property Name="AutomaticTaxRelief" Type="bit" />
+          <Property Name="TaxOfficeAnualReturn" Type="money" />
+          <Property Name="TaxOfficeMonthlyReturn" Type="money" />
+          <Property Name="TaxID" Type="nvarchar" MaxLength="24" />
+          <Property Name="TaxStateID" Type="nvarchar" MaxLength="20" />
+          <Property Name="NSITFStateID" Type="nvarchar" MaxLength="20" />
+          <Property Name="NHFStateID" Type="nvarchar" MaxLength="20" />
+          <Property Name="InsuranceCoyID" Type="nvarchar" MaxLength="16" />
+          <Property Name="InsuranceNo" Type="nvarchar" MaxLength="16" />
+          <Property Name="EmployeeHoursPerDay" Type="float" />
+          <Property Name="EmployeeID2" Type="nvarchar" MaxLength="36" />
+          <Property Name="UseTimeSheet" Type="bit" />
+          <Property Name="MonthToDateGross" Type="money" />
+          <Property Name="MonthToDateFederal" Type="money" />
+          <Property Name="MonthToDateState" Type="money" />
+          <Property Name="MonthToDateLocal" Type="money" />
+          <Property Name="MonthToDateOther" Type="money" />
+          <Property Name="QuarterToDateGross" Type="money" />
+          <Property Name="QuarterToDateFederal" Type="money" />
+          <Property Name="QuarterToDateState" Type="money" />
+          <Property Name="QuarterToDateLocal" Type="money" />
+          <Property Name="QuarterToDateOther" Type="money" />
+          <Property Name="YearToDateGross" Type="money" />
+          <Property Name="YearToDateFederal" Type="money" />
+          <Property Name="YearToDateState" Type="money" />
+          <Property Name="YearToDateLocal" Type="money" />
+          <Property Name="YearToDateOther" Type="money" />
+          <Property Name="DenyLogon" Type="bit" />
+          <Property Name="RequestID" Type="nvarchar" MaxLength="16" />
+          <Property Name="ApprovalID" Type="nvarchar" MaxLength="16" />
+          <Property Name="RequestType" Type="nvarchar" MaxLength="1" />
+          <Property Name="HasFingerPrint" Type="bit" Nullable="false" />
+          <Property Name="HasPhoto" Type="bit" Nullable="false" />
+          <Property Name="ClockInLocID" Type="nvarchar" MaxLength="16" />
+          <Property Name="GratuityPaid" Type="bit" />
+          <Property Name="GratuityDate" Type="datetime" />
+          <Property Name="Approved" Type="bit" />
+          <Property Name="ApprovedBy" Type="nvarchar" MaxLength="36" />
+          <Property Name="ApprovedDate" Type="datetime" />
+          <Property Name="Notes" Type="nvarchar" MaxLength="255" />
+          <Property Name="EnteredBy" Type="nvarchar" MaxLength="36" />
+          <Property Name="AuditCompanyID" Type="nvarchar" MaxLength="24" />
+          <Property Name="AuditDateTime" Type="datetime" />
+          <Property Name="AuditUserID" Type="nvarchar" MaxLength="24" />
+          <Property Name="LockedBy" Type="nvarchar" MaxLength="36" />
+          <Property Name="LockTS" Type="datetime" />
+          <Property Name="IsHandled" Type="bit" Nullable="false" />
+          <Property Name="ProcessType" Type="nvarchar" MaxLength="1" />
+          <Property Name="CostCentreID" Type="nvarchar" MaxLength="36" />
+          <Property Name="TAUserID" Type="int" />
+          <Property Name="HasNOT" Type="bit" />
+          <Property Name="HasWOT" Type="bit" />
+          <Property Name="HasPHOT" Type="bit" />
+        </EntityType>
+        <EntityType Name="PO_Detail">
+          <Key>
+            <PropertyRef Name="TransactionID" />
+          </Key>
+          <Property Name="TransactionID" Type="nvarchar" MaxLength="16" Nullable="false" />
+          <Property Name="CompanyID" Type="nvarchar" MaxLength="36" Nullable="false" />
+          <Property Name="PONumber" Type="nvarchar" MaxLength="16" Nullable="false" />
+          <Property Name="ProductCode" Type="nvarchar" MaxLength="16" />
+          <Property Name="PartNumber" Type="nvarchar" MaxLength="36" />
+          <Property Name="PartNumber1" Type="nvarchar" MaxLength="36" />
+          <Property Name="Description" Type="nvarchar" MaxLength="80" />
+          <Property Name="RequisitionNumber" Type="nvarchar" MaxLength="16" />
+          <Property Name="Linenumber" Type="int" Nullable="false" />
+          <Property Name="QuantityOnPO" Type="real" Nullable="false" />
+          <Property Name="QuantitySupplied" Type="real" Nullable="false" />
+          <Property Name="QuantityOnHH" Type="real" Nullable="false" />
+          <Property Name="QuantityOnBB" Type="real" Nullable="false" />
+          <Property Name="UnitPrice" Type="money" Nullable="false" />
+          <Property Name="CurrencyRate" Type="money" Nullable="false" />
+          <Property Name="LocalValue" Type="money" />
+          <Property Name="TotalValue" Type="money" />
+          <Property Name="IsCompleted" Type="bit" Nullable="false" />
+          <Property Name="Remarks" Type="nvarchar" MaxLength="80" />
+          <Property Name="AuditUserID" Type="nvarchar" MaxLength="24" />
+          <Property Name="AuditDateTime" Type="datetime" />
+          <Property Name="LastUnitPrice" Type="money" />
+          <Property Name="BOQuantity" Type="real" />
+          <Property Name="CategoryID" Type="nvarchar" MaxLength="36" />
+          <Property Name="UOMID" Type="nvarchar" MaxLength="16" />
+          <Property Name="QuantityRequested" Type="real" />
+          <Property Name="DivisionID" Type="nvarchar" MaxLength="36" Nullable="false" />
+          <Property Name="ArticleNo" Type="nvarchar" MaxLength="36" />
+          <Property Name="UserFld1" Type="nvarchar" MaxLength="36" />
+          <Property Name="UserFld2" Type="nvarchar" MaxLength="24" />
+          <Property Name="UserFld3" Type="int" />
+          <Property Name="UserFld4" Type="int" />
+        </EntityType>
+        <EntityType Name="PO_FollowupDetail">
+          <Key>
+            <PropertyRef Name="TransactionID" />
+          </Key>
+          <Property Name="TransactionID" Type="nvarchar" MaxLength="16" Nullable="false" />
+          <Property Name="LineNumber" Type="int" />
+          <Property Name="FollowupNumber" Type="nvarchar" MaxLength="16" Nullable="false" />
+          <Property Name="ProductCode" Type="nvarchar" MaxLength="16" Nullable="false" />
+          <Property Name="PartNumber" Type="nvarchar" MaxLength="16" Nullable="false" />
+          <Property Name="AliasNumber" Type="nvarchar" MaxLength="16" />
+          <Property Name="PartName" Type="nvarchar" MaxLength="40" />
+          <Property Name="PoQuantity" Type="real" />
+          <Property Name="BBQuantity" Type="real" Nullable="false" />
+          <Property Name="HHQuantity" Type="real" Nullable="false" />
+          <Property Name="QuantityArrived" Type="real" />
+          <Property Name="ExchangeRate" Type="money" />
+          <Property Name="SourceUnitPrice" Type="money" />
+          <Property Name="SourceDiscountRate" Type="real" />
+          <Property Name="SourceAmount" Type="money" />
+          <Property Name="BaseUnitPrice" Type="money" Nullable="false" />
+          <Property Name="Closed" Type="bit" Nullable="false" />
+          <Property Name="AuditUserID" Type="nvarchar" MaxLength="24" />
+          <Property Name="AuditDateTime" Type="datetime" />
+          <Property Name="DivisionID" Type="nvarchar" MaxLength="36" Nullable="false" />
+        </EntityType>
+        <EntityType Name="PO_FollowupHeader">
+          <Key>
+            <PropertyRef Name="FollowUpNumber" />
+          </Key>
+          <Property Name="FollowUpNumber" Type="nvarchar" MaxLength="16" Nullable="false" />
+          <Property Name="PoNumber" Type="nvarchar" MaxLength="16" />
+          <Property Name="BBNumber" Type="nvarchar" MaxLength="16" />
+          <Property Name="HHNumber" Type="nvarchar" MaxLength="16" />
+          <Property Name="ETA" Type="datetime" />
+          <Property Name="ShipAction" Type="nvarchar" MaxLength="10" />
+          <Property Name="PoStatus" Type="nvarchar" MaxLength="16" />
+          <Property Name="ArrivalDate" Type="datetime" />
+          <Property Name="ReceiptNumber" Type="nvarchar" MaxLength="16" />
+          <Property Name="ExchangeRate" Type="money" />
+          <Property Name="SourceTotalValue" Type="money" />
+          <Property Name="BaseTotalValue" Type="money" />
+          <Property Name="Remarks" Type="nvarchar" MaxLength="80" />
+          <Property Name="FollowUpDate" Type="datetime" />
+          <Property Name="IsCompleted" Type="bit" />
+          <Property Name="AuditUserID" Type="nvarchar" MaxLength="24" />
+          <Property Name="AuditDateTime" Type="datetime" />
+          <Property Name="FollowUpType" Type="int" />
+          <Property Name="ShipInfoID" Type="int" />
+          <Property Name="BBDate" Type="datetime" />
+          <Property Name="HHDate" Type="datetime" />
+          <Property Name="DivisionID" Type="nvarchar" MaxLength="36" Nullable="false" />
+        </EntityType>
+        <EntityType Name="PO_Header">
+          <Key>
+            <PropertyRef Name="CompanyID" />
+            <PropertyRef Name="PONumber" />
+          </Key>
+          <Property Name="Sno" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CompanyID" Type="nvarchar" MaxLength="36" Nullable="false" />
+          <Property Name="PONumber" Type="nvarchar" MaxLength="16" Nullable="false" />
+          <Property Name="PODate" Type="datetime" />
+          <Property Name="CurrencyID" Type="nvarchar" MaxLength="6" Nullable="false" />
+          <Property Name="RequisitionNumber" Type="nvarchar" MaxLength="16" />
+          <Property Name="IsCompleted" Type="bit" Nullable="false" />
+          <Property Name="CompletedDate" Type="datetime" />
+          <Property Name="PODueDate" Type="datetime" />
+          <Property Name="SupplierId" Type="nvarchar" MaxLength="16" />
+          <Property Name="TermsId" Type="nvarchar" MaxLength="6" />
+          <Property Name="ReqShipAction" Type="nvarchar" MaxLength="10" />
+          <Property Name="ShipAction" Type="nvarchar" MaxLength="10" />
+          <Property Name="AssetID" Type="nvarchar" MaxLength="12" />
+          <Property Name="BudgetCode" Type="nvarchar" MaxLength="10" />
+          <Property Name="UnitCode" Type="nvarchar" MaxLength="8" />
+          <Property Name="StateCode" Type="nvarchar" MaxLength="4" />
+          <Property Name="HHNumber" Type="nvarchar" MaxLength="16" />
+          <Property Name="HHSTS" Type="char" MaxLength="1" Nullable="false" />
+          <Property Name="BBSTS" Type="char" MaxLength="1" Nullable="false" />
+          <Property Name="ETA" Type="datetime" />
+          <Property Name="ExchangeRate" Type="money" />
+          <Property Name="TotalValue" Type="money" />
+          <Property Name="ReceivedTotalValue" Type="money" />
+          <Property Name="BBNumber" Type="nvarchar" MaxLength="16" />
+          <Property Name="FUpNumber" Type="nvarchar" MaxLength="12" />
+          <Property Name="ShipInfoID" Type="nvarchar" MaxLength="3" />
+          <Property Name="OrderTo" Type="nvarchar" MaxLength="16" />
+          <Property Name="Remarks" Type="nvarchar" MaxLength="255" />
+          <Property Name="StatusID" Type="smallint" Nullable="false" />
+          <Property Name="UserID" Type="nvarchar" MaxLength="24" />
+          <Property Name="Importance" Type="nvarchar" MaxLength="16" Nullable="false" />
+          <Property Name="StatusReason" Type="nvarchar" MaxLength="50" />
+          <Property Name="InvoiceNumber" Type="nvarchar" MaxLength="16" />
+          <Property Name="DeliveryNumber" Type="nvarchar" MaxLength="16" />
+          <Property Name="ArrivalDate" Type="datetime" />
+          <Property Name="AuditUserID" Type="nvarchar" MaxLength="24" />
+          <Property Name="AuditDateTime" Type="datetime" />
+          <Property Name="PoSourceID" Type="nvarchar" MaxLength="36" />
+          <Property Name="DeliverAddress1" Type="nvarchar" MaxLength="60" />
+          <Property Name="DeliverAddress2" Type="nvarchar" MaxLength="60" />
+          <Property Name="DeliverAddress3" Type="nvarchar" MaxLength="60" />
+          <Property Name="DeliverAddress4" Type="nvarchar" MaxLength="60" />
+          <Property Name="DeliverAttention" Type="nvarchar" MaxLength="40" />
+          <Property Name="ProposedDate" Type="datetime" />
+          <Property Name="VendorAddress1" Type="nvarchar" MaxLength="60" />
+          <Property Name="VendorAddress2" Type="nvarchar" MaxLength="60" />
+          <Property Name="VendorAddress3" Type="nvarchar" MaxLength="60" />
+          <Property Name="VendorAddress4" Type="nvarchar" MaxLength="60" />
+          <Property Name="VendorContact" Type="nvarchar" MaxLength="40" />
+          <Property Name="InvoiceAddress1" Type="nvarchar" MaxLength="60" />
+          <Property Name="InvoiceAddress2" Type="nvarchar" MaxLength="60" />
+          <Property Name="invoiceAddress3" Type="nvarchar" MaxLength="60" />
+          <Property Name="InvoiceAddress4" Type="nvarchar" MaxLength="60" />
+          <Property Name="InvoiceContact" Type="nvarchar" MaxLength="40" />
+          <Property Name="CostCode" Type="nvarchar" MaxLength="16" />
+          <Property Name="IsSigned" Type="bit" />
+          <Property Name="DateSigned" Type="datetime" />
+          <Property Name="SignedBy" Type="nvarchar" MaxLength="24" />
+          <Property Name="CurrencySeperator" Type="nvarchar" MaxLength="1" Nullable="false" />
+          <Property Name="CalculateTax" Type="bit" />
+          <Property Name="TaxInclusive" Type="bit" />
+          <Property Name="TaxRate" Type="real" />
+          <Property Name="TotalTaxValue" Type="money" />
+          <Property Name="FreightCharges" Type="money" />
+          <Property Name="LocalTransport" Type="money" />
+          <Property Name="OtherCharges" Type="money" />
+          <Property Name="PoTypeID" Type="nvarchar" MaxLength="3" />
+          <Property Name="DivisionID" Type="nvarchar" MaxLength="36" Nullable="false" />
+          <Property Name="RefDoc1" Type="nvarchar" MaxLength="36" />
+          <Property Name="RefDoc1Date" Type="datetime" />
+          <Property Name="RefDoc2" Type="nvarchar" MaxLength="36" />
+          <Property Name="RefDoc2Date" Type="datetime" />
+          <Property Name="ReasonCode" Type="nvarchar" MaxLength="12" />
+          <Property Name="PrintOption" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="PT_Parts">
+          <Key>
+            <PropertyRef Name="CompanyID" />
+            <PropertyRef Name="ProductCode" />
+          </Key>
+          <Property Name="CompanyID" Type="nvarchar" MaxLength="36" Nullable="false" />
+          <Property Name="ProductCode" Type="nvarchar" MaxLength="36" Nullable="false" />
+          <Property Name="PartNumber" Type="nvarchar" MaxLength="36" Nullable="false" />
+          <Property Name="PartTypeID" Type="nvarchar" MaxLength="36" />
+          <Property Name="AssetID" Type="nvarchar" MaxLength="36" />
+          <Property Name="PartName" Type="nvarchar" MaxLength="50" />
+          <Property Name="PartDescription" Type="nvarchar" MaxLength="80" />
+          <Property Name="PartLongDescription" Type="nvarchar" MaxLength="255" />
+          <Property Name="PartCategoryID" Type="nvarchar" MaxLength="36" />
+          <Property Name="PartCode" Type="nvarchar" MaxLength="36" />
+          <Property Name="PartFamilyID" Type="nvarchar" MaxLength="36" />
+          <Property Name="PartGroupID" Type="nvarchar" MaxLength="36" />
+          <Property Name="PartSubGroupID" Type="nvarchar" MaxLength="36" />
+          <Property Name="DrawingNos" Type="nvarchar" MaxLength="36" />
+          <Property Name="PartPosition" Type="nvarchar" MaxLength="36" />
+          <Property Name="SalesDescription" Type="nvarchar" MaxLength="50" />
+          <Property Name="PurchaseDescription" Type="nvarchar" MaxLength="50" />
+          <Property Name="PictureURL" Type="nvarchar" MaxLength="80" />
+          <Property Name="LargePictureURL" Type="nvarchar" MaxLength="80" />
+          <Property Name="PartWeight" Type="float" />
+          <Property Name="PartWeightMetric" Type="float" />
+          <Property Name="PartShipWeight" Type="int" />
+          <Property Name="PartSize" Type="nvarchar" MaxLength="50" />
+          <Property Name="PartSizeCmm" Type="nvarchar" MaxLength="50" />
+          <Property Name="PartDimentions" Type="nvarchar" MaxLength="10" />
+          <Property Name="PartDimentionsCmm" Type="nvarchar" MaxLength="50" />
+          <Property Name="PartColor" Type="nvarchar" MaxLength="50" />
+          <Property Name="PartStyle" Type="nvarchar" MaxLength="50" />
+          <Property Name="PartCareInstructions" Type="nvarchar" MaxLength="255" />
+          <Property Name="PartDefaultWarehouse" Type="nvarchar" MaxLength="36" />
+          <Property Name="PartDefaultWarehouseBin" Type="nvarchar" MaxLength="36" />
+          <Property Name="PartLocationX" Type="nvarchar" MaxLength="10" />
+          <Property Name="PartLocationY" Type="nvarchar" MaxLength="10" />
+          <Property Name="PartLocationZ" Type="nvarchar" MaxLength="10" />
+          <Property Name="DownloadLocation" Type="nvarchar" MaxLength="120" />
+          <Property Name="DownloadPassword" Type="nvarchar" MaxLength="20" />
+          <Property Name="PartUOM" Type="nvarchar" MaxLength="15" />
+          <Property Name="PartUOMConvert" Type="real" />
+          <Property Name="GLPartSalesAccount" Type="nvarchar" MaxLength="36" />
+          <Property Name="GLPartCOGSAccount" Type="nvarchar" MaxLength="36" />
+          <Property Name="GLInventoryAccount" Type="nvarchar" MaxLength="36" />
+          <Property Name="CurrencyID" Type="nvarchar" MaxLength="3" />
+          <Property Name="CurrencyExchangeRate" Type="float" />
+          <Property Name="PartPricingCode" Type="nvarchar" MaxLength="36" />
+          <Property Name="PricingMethods" Type="nvarchar" MaxLength="36" />
+          <Property Name="Taxable" Type="bit" />
+          <Property Name="VendorID" Type="nvarchar" MaxLength="50" />
+          <Property Name="LeadTime" Type="nvarchar" MaxLength="50" />
+          <Property Name="LeadTimeUnit" Type="nvarchar" MaxLength="10" />
+          <Property Name="ReOrderLevel" Type="float" />
+          <Property Name="ReOrderQty" Type="float" />
+          <Property Name="BuildTime" Type="int" />
+          <Property Name="BuildTimeUnit" Type="nvarchar" MaxLength="10" />
+          <Property Name="UseageRate" Type="int" />
+          <Property Name="UseageRateUnit" Type="nvarchar" MaxLength="10" />
+          <Property Name="SalesForecast" Type="int" />
+          <Property Name="SalesForecastUnit" Type="nvarchar" MaxLength="10" />
+          <Property Name="CalculatedCover" Type="int" />
+          <Property Name="CalculatedCoverUnits" Type="nvarchar" MaxLength="10" />
+          <Property Name="IsAssembly" Type="bit" Nullable="false" />
+          <Property Name="PartAssembly" Type="nvarchar" MaxLength="36" />
+          <Property Name="AverageUnitPrice" Type="money" />
+          <Property Name="AverageTotalValue" Type="money" />
+          <Property Name="LastUnitPrice" Type="money" />
+          <Property Name="LastTotalValue" Type="money" />
+          <Property Name="QuantityALLStore" Type="float" />
+          <Property Name="QuantityReserved" Type="float" />
+          <Property Name="QuantityAvailable" Type="float" />
+          <Property Name="QuantityBackOrder" Type="float" />
+          <Property Name="TaxGroupID" Type="nvarchar" MaxLength="36" />
+          <Property Name="TaxPercent" Type="float" />
+          <Property Name="IsActive" Type="bit" Nullable="false" />
+          <Property Name="IsStockItem" Type="bit" Nullable="false" />
+          <Property Name="OnHold" Type="bit" Nullable="false" />
+          <Property Name="Hidden" Type="bit" Nullable="false" />
+          <Property Name="AuditUserID" Type="nvarchar" MaxLength="36" />
+          <Property Name="AuditDateTime" Type="datetime" />
+          <Property Name="MinimumLevel" Type="float" />
+          <Property Name="MaximumLevel" Type="float" />
+          <Property Name="DateCreated" Type="datetime" />
+          <Property Name="UseSerialNr" Type="bit" />
+          <Property Name="Notes" Type="nvarchar" MaxLength="512" />
+          <Property Name="LastSupplier" Type="nvarchar" MaxLength="24" />
+          <Property Name="YTDQuantity" Type="real" />
+          <Property Name="Status" Type="nvarchar" MaxLength="6" />
+          <Property Name="DiscountCode" Type="nvarchar" MaxLength="50" />
+          <Property Name="UseExpiring" Type="bit" />
+          <Property Name="GLInventoryVarAccount" Type="nvarchar" MaxLength="36" />
+          <Property Name="GLConsumptionAccount" Type="nvarchar" MaxLength="36" />
+          <Property Name="StandardPrice" Type="money" />
+          <Property Name="RecordID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="ArticleNo" Type="nvarchar" MaxLength="36" />
+          <Property Name="MakerCodeID" Type="nvarchar" MaxLength="36" />
+          <Property Name="ModelNo" Type="nvarchar" MaxLength="36" />
+          <Property Name="SerialNo" Type="nvarchar" MaxLength="36" />
+          <Property Name="UserCode1" Type="nvarchar" MaxLength="36" />
+          <Property Name="UserCode2" Type="nvarchar" MaxLength="24" />
+          <Property Name="UserCode3" Type="int" />
+          <Property Name="UserCode4" Type="int" />
+        </EntityType>
+        <EntityType Name="PT_RequisitionDetail">
+          <Key>
+            <PropertyRef Name="CompanyID" />
+            <PropertyRef Name="TransactionID" />
+            <PropertyRef Name="DivisionID" />
+          </Key>
+          <Property Name="CompanyID" Type="nvarchar" MaxLength="36" Nullable="false" />
+          <Property Name="TransactionID" Type="nvarchar" MaxLength="16" Nullable="false" />
+          <Property Name="RequisitionNumber" Type="nvarchar" MaxLength="16" Nullable="false" />
+          <Property Name="LineNumber" Type="int" Nullable="false" />
+          <Property Name="ProductCode" Type="nvarchar" MaxLength="36" />
+          <Property Name="PartNumber" Type="nvarchar" MaxLength="36" />
+          <Property Name="Description" Type="nvarchar" MaxLength="80" />
+          <Property Name="UOMID" Type="nvarchar" MaxLength="6" />
+          <Property Name="CategoryID" Type="nvarchar" MaxLength="10" />
+          <Property Name="QuantityRequested" Type="real" Nullable="false" />
+          <Property Name="QuantityQuoted" Type="real" />
+          <Property Name="QuantityIssued" Type="real" Nullable="false" />
+          <Property Name="QuantityUsed" Type="real" Nullable="false" />
+          <Property Name="UsedInPO" Type="bit" Nullable="false" />
+          <Property Name="PONumber" Type="nvarchar" MaxLength="16" />
+          <Property Name="CurrencyRate" Type="real" />
+          <Property Name="AveragePrice" Type="real" />
+          <Property Name="LastPurchasePrice" Type="real" />
+          <Property Name="ProductAverageValue" Type="float" />
+          <Property Name="ProductLastPriceValue" Type="float" />
+          <Property Name="IsClosed" Type="bit" Nullable="false" />
+          <Property Name="Remarks" Type="nvarchar" MaxLength="80" />
+          <Property Name="PartCode" Type="nvarchar" MaxLength="36" />
+          <Property Name="AuditUserID" Type="nvarchar" MaxLength="24" />
+          <Property Name="AuditDateTime" Type="datetime" />
+          <Property Name="IsBrowseCleared" Type="bit" Nullable="false" />
+          <Property Name="OpeningBalance" Type="real" />
+          <Property Name="POQuantity" Type="real" />
+          <Property Name="BOQuantity" Type="real" />
+          <Property Name="WarehouseID" Type="nvarchar" MaxLength="16" />
+          <Property Name="LocationID" Type="nvarchar" MaxLength="10" />
+          <Property Name="CurrencyId" Type="nvarchar" MaxLength="6" />
+          <Property Name="QuantityReturned" Type="real" />
+          <Property Name="BudgetCode" Type="nvarchar" MaxLength="36" />
+          <Property Name="UnitCode" Type="nvarchar" MaxLength="10" />
+          <Property Name="StateCode" Type="nvarchar" MaxLength="4" />
+          <Property Name="ReqUserID" Type="nvarchar" MaxLength="1" />
+          <Property Name="PROReference" Type="nvarchar" MaxLength="16" />
+          <Property Name="RecordID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="ParentID" Type="uniqueidentifier" />
+          <Property Name="DivisionID" Type="nvarchar" MaxLength="36" Nullable="false" />
+          <Property Name="ArticleNo" Type="nvarchar" MaxLength="36" />
+        </EntityType>
+        <EntityType Name="PT_RequisitionHeader">
+          <Key>
+            <PropertyRef Name="CompanyID" />
+            <PropertyRef Name="RequisitionNumber" />
+            <PropertyRef Name="DivisionID" />
+          </Key>
+          <Property Name="CompanyID" Type="nvarchar" MaxLength="36" Nullable="false" />
+          <Property Name="RequisitionNumber" Type="nvarchar" MaxLength="16" Nullable="false" />
+          <Property Name="UniqueDocNo" Type="int" />
+          <Property Name="UserDocNumber" Type="nvarchar" MaxLength="16" />
+          <Property Name="Description" Type="nvarchar" MaxLength="80" />
+          <Property Name="FaultID" Type="nvarchar" MaxLength="16" />
+          <Property Name="TaskID" Type="nvarchar" MaxLength="16" />
+          <Property Name="RequisitionDate" Type="datetime" />
+          <Property Name="ImportanceID" Type="nvarchar" MaxLength="10" />
+          <Property Name="CategoryID" Type="nvarchar" MaxLength="10" />
+          <Property Name="EmployeeID" Type="nvarchar" MaxLength="24" />
+          <Property Name="AssetID" Type="nvarchar" MaxLength="36" />
+          <Property Name="BudgetCode" Type="nvarchar" MaxLength="36" />
+          <Property Name="UnitCode" Type="nvarchar" MaxLength="10" />
+          <Property Name="StateCode" Type="nvarchar" MaxLength="4" />
+          <Property Name="DateCompleted" Type="datetime" />
+          <Property Name="Remarks" Type="nvarchar" MaxLength="80" />
+          <Property Name="PartsOrdered" Type="bit" />
+          <Property Name="PONumber" Type="nvarchar" MaxLength="16" />
+          <Property Name="CurrencyID" Type="nvarchar" MaxLength="6" />
+          <Property Name="TotalAverageValue" Type="float" />
+          <Property Name="TotalLastPriceValue" Type="float" />
+          <Property Name="ProjectID" Type="nvarchar" MaxLength="36" />
+          <Property Name="PrintingCount" Type="int" />
+          <Property Name="Status" Type="nvarchar" MaxLength="4" />
+          <Property Name="Approved" Type="bit" />
+          <Property Name="IsAutoCreated" Type="bit" Nullable="false" />
+          <Property Name="IsCompleted" Type="bit" Nullable="false" />
+          <Property Name="IsClosed" Type="bit" Nullable="false" />
+          <Property Name="PartsIssued" Type="bit" />
+          <Property Name="AuditDateTime" Type="datetime" />
+          <Property Name="AuditUserID" Type="nvarchar" MaxLength="24" />
+          <Property Name="ReqShipAction" Type="nvarchar" MaxLength="10" />
+          <Property Name="SiteID" Type="nvarchar" MaxLength="16" />
+          <Property Name="HasPO" Type="bit" />
+          <Property Name="OrderBy" Type="nvarchar" MaxLength="24" />
+          <Property Name="VendorID" Type="nvarchar" MaxLength="36" />
+          <Property Name="EmployeeName" Type="nvarchar" MaxLength="50" />
+          <Property Name="DocCreatorID" Type="nvarchar" MaxLength="24" />
+          <Property Name="RequestTypeID" Type="int" Nullable="false" />
+          <Property Name="ChargeTo" Type="int" Nullable="false" />
+          <Property Name="GLAccountNumber" Type="nvarchar" MaxLength="36" />
+          <Property Name="GLAccountName" Type="nvarchar" MaxLength="60" />
+          <Property Name="SourceCostCentre" Type="nvarchar" MaxLength="36" />
+          <Property Name="MeterReading" Type="float" />
+          <Property Name="SvcChargeUpdated" Type="bit" />
+          <Property Name="SvcAuditUserID" Type="nvarchar" MaxLength="24" />
+          <Property Name="SvcAuditDatetime" Type="datetime" />
+          <Property Name="Cancelled" Type="bit" />
+          <Property Name="DateCancelled" Type="datetime" />
+          <Property Name="cancelledBy" Type="nvarchar" MaxLength="24" />
+          <Property Name="CancelReason" Type="nvarchar" MaxLength="80" />
+          <Property Name="RequisitionNo2" Type="nvarchar" MaxLength="36" />
+          <Property Name="ReapairBox" Type="nvarchar" MaxLength="36" />
+          <Property Name="RecordID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="ParentID" Type="uniqueidentifier" />
+          <Property Name="DivisionID" Type="nvarchar" MaxLength="36" Nullable="false" />
+          <Property Name="JobID" Type="int" />
+          <Property Name="StatusID" Type="int" />
+          <Property Name="ReasonCode" Type="nvarchar" MaxLength="12" />
+        </EntityType>
+        <Association Name="FK_PO_Detail_PO_Header">
+          <End Role="PO_Header" Type="Self.PO_Header" Multiplicity="1" />
+          <End Role="PO_Detail" Type="Self.PO_Detail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PO_Header">
+              <PropertyRef Name="CompanyID" />
+              <PropertyRef Name="PONumber" />
+            </Principal>
+            <Dependent Role="PO_Detail">
+              <PropertyRef Name="CompanyID" />
+              <PropertyRef Name="PONumber" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PO_FollowupDetail_PO_FollowupDetail">
+          <End Role="PO_FollowupHeader" Type="Self.PO_FollowupHeader" Multiplicity="1" />
+          <End Role="PO_FollowupDetail" Type="Self.PO_FollowupDetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PO_FollowupHeader">
+              <PropertyRef Name="FollowUpNumber" />
+            </Principal>
+            <Dependent Role="PO_FollowupDetail">
+              <PropertyRef Name="FollowupNumber" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PT_RequisitionDetail_PT_RequisitionHeader">
+          <End Role="PT_RequisitionHeader" Type="Self.PT_RequisitionHeader" Multiplicity="1" />
+          <End Role="PT_RequisitionDetail" Type="Self.PT_RequisitionDetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PT_RequisitionHeader">
+              <PropertyRef Name="CompanyID" />
+              <PropertyRef Name="DivisionID" />
+              <PropertyRef Name="RequisitionNumber" />
+            </Principal>
+            <Dependent Role="PT_RequisitionDetail">
+              <PropertyRef Name="CompanyID" />
+              <PropertyRef Name="DivisionID" />
+              <PropertyRef Name="RequisitionNumber" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PT_RequisitionHeader_PT_RequisitionHeader">
+          <End Role="PT_RequisitionHeader" Type="Self.PT_RequisitionHeader" Multiplicity="1" />
+          <End Role="PT_RequisitionHeader1" Type="Self.PT_RequisitionHeader" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="PT_RequisitionHeader">
+              <PropertyRef Name="CompanyID" />
+              <PropertyRef Name="DivisionID" />
+              <PropertyRef Name="RequisitionNumber" />
+            </Principal>
+            <Dependent Role="PT_RequisitionHeader1">
+              <PropertyRef Name="CompanyID" />
+              <PropertyRef Name="DivisionID" />
+              <PropertyRef Name="RequisitionNumber" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="WMDBDEMOModelStoreContainer">
+          <EntitySet Name="PayEmployees" EntityType="Self.PayEmployees" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PO_Detail" EntityType="Self.PO_Detail" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PO_FollowupDetail" EntityType="Self.PO_FollowupDetail" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PO_FollowupHeader" EntityType="Self.PO_FollowupHeader" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PO_Header" EntityType="Self.PO_Header" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PT_Parts" EntityType="Self.PT_Parts" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PT_RequisitionDetail" EntityType="Self.PT_RequisitionDetail" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PT_RequisitionHeader" EntityType="Self.PT_RequisitionHeader" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_PO_Detail_PO_Header" Association="Self.FK_PO_Detail_PO_Header">
+            <End Role="PO_Header" EntitySet="PO_Header" />
+            <End Role="PO_Detail" EntitySet="PO_Detail" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PO_FollowupDetail_PO_FollowupDetail" Association="Self.FK_PO_FollowupDetail_PO_FollowupDetail">
+            <End Role="PO_FollowupHeader" EntitySet="PO_FollowupHeader" />
+            <End Role="PO_FollowupDetail" EntitySet="PO_FollowupDetail" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PT_RequisitionDetail_PT_RequisitionHeader" Association="Self.FK_PT_RequisitionDetail_PT_RequisitionHeader">
+            <End Role="PT_RequisitionHeader" EntitySet="PT_RequisitionHeader" />
+            <End Role="PT_RequisitionDetail" EntitySet="PT_RequisitionDetail" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PT_RequisitionHeader_PT_RequisitionHeader" Association="Self.FK_PT_RequisitionHeader_PT_RequisitionHeader">
+            <End Role="PT_RequisitionHeader" EntitySet="PT_RequisitionHeader" />
+            <End Role="PT_RequisitionHeader1" EntitySet="PT_RequisitionHeader" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="WMDBDEMOModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="PO_Detail">
+          <Key>
+            <PropertyRef Name="TransactionID" />
+          </Key>
+          <Property Name="TransactionID" Type="String" MaxLength="16" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="CompanyID" Type="String" MaxLength="36" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PONumber" Type="String" MaxLength="16" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ProductCode" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="PartNumber" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="PartNumber1" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="Description" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="RequisitionNumber" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="Linenumber" Type="Int32" Nullable="false" />
+          <Property Name="QuantityOnPO" Type="Single" Nullable="false" />
+          <Property Name="QuantitySupplied" Type="Single" Nullable="false" />
+          <Property Name="QuantityOnHH" Type="Single" Nullable="false" />
+          <Property Name="QuantityOnBB" Type="Single" Nullable="false" />
+          <Property Name="UnitPrice" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+          <Property Name="CurrencyRate" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+          <Property Name="LocalValue" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="TotalValue" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="IsCompleted" Type="Boolean" Nullable="false" />
+          <Property Name="Remarks" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="AuditUserID" Type="String" MaxLength="24" FixedLength="false" Unicode="true" />
+          <Property Name="AuditDateTime" Type="DateTime" Precision="3" />
+          <Property Name="LastUnitPrice" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="BOQuantity" Type="Single" />
+          <Property Name="CategoryID" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="UOMID" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="QuantityRequested" Type="Single" />
+          <Property Name="DivisionID" Type="String" MaxLength="36" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ArticleNo" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="UserFld1" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="UserFld2" Type="String" MaxLength="24" FixedLength="false" Unicode="true" />
+          <Property Name="UserFld3" Type="Int32" />
+          <Property Name="UserFld4" Type="Int32" />
+          <NavigationProperty Name="PO_Header" Relationship="Self.FK_PO_Detail_PO_Header" FromRole="PO_Detail" ToRole="PO_Header" />
+        </EntityType>
+        <EntityType Name="PO_FollowupDetail">
+          <Key>
+            <PropertyRef Name="TransactionID" />
+          </Key>
+          <Property Name="TransactionID" Type="String" MaxLength="16" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="LineNumber" Type="Int32" />
+          <Property Name="FollowupNumber" Type="String" MaxLength="16" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ProductCode" Type="String" MaxLength="16" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PartNumber" Type="String" MaxLength="16" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="AliasNumber" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="PartName" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+          <Property Name="PoQuantity" Type="Single" />
+          <Property Name="BBQuantity" Type="Single" Nullable="false" />
+          <Property Name="HHQuantity" Type="Single" Nullable="false" />
+          <Property Name="QuantityArrived" Type="Single" />
+          <Property Name="ExchangeRate" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="SourceUnitPrice" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="SourceDiscountRate" Type="Single" />
+          <Property Name="SourceAmount" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="BaseUnitPrice" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+          <Property Name="Closed" Type="Boolean" Nullable="false" />
+          <Property Name="AuditUserID" Type="String" MaxLength="24" FixedLength="false" Unicode="true" />
+          <Property Name="AuditDateTime" Type="DateTime" Precision="3" />
+          <Property Name="DivisionID" Type="String" MaxLength="36" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="PO_FollowupHeader" Relationship="Self.FK_PO_FollowupDetail_PO_FollowupDetail" FromRole="PO_FollowupDetail" ToRole="PO_FollowupHeader" />
+        </EntityType>
+        <EntityType Name="PO_FollowupHeader">
+          <Key>
+            <PropertyRef Name="FollowUpNumber" />
+          </Key>
+          <Property Name="FollowUpNumber" Type="String" MaxLength="16" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PoNumber" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="BBNumber" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="HHNumber" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="ETA" Type="DateTime" Precision="3" />
+          <Property Name="ShipAction" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="PoStatus" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="ArrivalDate" Type="DateTime" Precision="3" />
+          <Property Name="ReceiptNumber" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="ExchangeRate" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="SourceTotalValue" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="BaseTotalValue" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Remarks" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="FollowUpDate" Type="DateTime" Precision="3" />
+          <Property Name="IsCompleted" Type="Boolean" />
+          <Property Name="AuditUserID" Type="String" MaxLength="24" FixedLength="false" Unicode="true" />
+          <Property Name="AuditDateTime" Type="DateTime" Precision="3" />
+          <Property Name="FollowUpType" Type="Int32" />
+          <Property Name="ShipInfoID" Type="Int32" />
+          <Property Name="BBDate" Type="DateTime" Precision="3" />
+          <Property Name="HHDate" Type="DateTime" Precision="3" />
+          <Property Name="DivisionID" Type="String" MaxLength="36" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="PO_FollowupDetail" Relationship="Self.FK_PO_FollowupDetail_PO_FollowupDetail" FromRole="PO_FollowupHeader" ToRole="PO_FollowupDetail" />
+        </EntityType>
+        <EntityType Name="PO_Header">
+          <Key>
+            <PropertyRef Name="CompanyID" />
+            <PropertyRef Name="PONumber" />
+          </Key>
+          <Property Name="Sno" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CompanyID" Type="String" MaxLength="36" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PONumber" Type="String" MaxLength="16" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PODate" Type="DateTime" Precision="3" />
+          <Property Name="CurrencyID" Type="String" MaxLength="6" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="RequisitionNumber" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="IsCompleted" Type="Boolean" Nullable="false" />
+          <Property Name="CompletedDate" Type="DateTime" Precision="3" />
+          <Property Name="PODueDate" Type="DateTime" Precision="3" />
+          <Property Name="SupplierId" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="TermsId" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+          <Property Name="ReqShipAction" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="ShipAction" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="AssetID" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+          <Property Name="BudgetCode" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="UnitCode" Type="String" MaxLength="8" FixedLength="false" Unicode="true" />
+          <Property Name="StateCode" Type="String" MaxLength="4" FixedLength="false" Unicode="true" />
+          <Property Name="HHNumber" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="HHSTS" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="BBSTS" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="ETA" Type="DateTime" Precision="3" />
+          <Property Name="ExchangeRate" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="TotalValue" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="ReceivedTotalValue" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="BBNumber" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="FUpNumber" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+          <Property Name="ShipInfoID" Type="String" MaxLength="3" FixedLength="false" Unicode="true" />
+          <Property Name="OrderTo" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="Remarks" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="StatusID" Type="Int16" Nullable="false" />
+          <Property Name="UserID" Type="String" MaxLength="24" FixedLength="false" Unicode="true" />
+          <Property Name="Importance" Type="String" MaxLength="16" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="StatusReason" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="InvoiceNumber" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="DeliveryNumber" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="ArrivalDate" Type="DateTime" Precision="3" />
+          <Property Name="AuditUserID" Type="String" MaxLength="24" FixedLength="false" Unicode="true" />
+          <Property Name="AuditDateTime" Type="DateTime" Precision="3" />
+          <Property Name="PoSourceID" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="DeliverAddress1" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+          <Property Name="DeliverAddress2" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+          <Property Name="DeliverAddress3" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+          <Property Name="DeliverAddress4" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+          <Property Name="DeliverAttention" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+          <Property Name="ProposedDate" Type="DateTime" Precision="3" />
+          <Property Name="VendorAddress1" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+          <Property Name="VendorAddress2" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+          <Property Name="VendorAddress3" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+          <Property Name="VendorAddress4" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+          <Property Name="VendorContact" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+          <Property Name="InvoiceAddress1" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+          <Property Name="InvoiceAddress2" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+          <Property Name="invoiceAddress3" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+          <Property Name="InvoiceAddress4" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+          <Property Name="InvoiceContact" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+          <Property Name="CostCode" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="IsSigned" Type="Boolean" />
+          <Property Name="DateSigned" Type="DateTime" Precision="3" />
+          <Property Name="SignedBy" Type="String" MaxLength="24" FixedLength="false" Unicode="true" />
+          <Property Name="CurrencySeperator" Type="String" MaxLength="1" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="CalculateTax" Type="Boolean" />
+          <Property Name="TaxInclusive" Type="Boolean" />
+          <Property Name="TaxRate" Type="Single" />
+          <Property Name="TotalTaxValue" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="FreightCharges" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="LocalTransport" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="OtherCharges" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="PoTypeID" Type="String" MaxLength="3" FixedLength="false" Unicode="true" />
+          <Property Name="DivisionID" Type="String" MaxLength="36" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="RefDoc1" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="RefDoc1Date" Type="DateTime" Precision="3" />
+          <Property Name="RefDoc2" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="RefDoc2Date" Type="DateTime" Precision="3" />
+          <Property Name="ReasonCode" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+          <Property Name="PrintOption" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="PO_Detail" Relationship="Self.FK_PO_Detail_PO_Header" FromRole="PO_Header" ToRole="PO_Detail" />
+        </EntityType>
+        <EntityType Name="PT_Parts">
+          <Key>
+            <PropertyRef Name="CompanyID" />
+            <PropertyRef Name="ProductCode" />
+          </Key>
+          <Property Name="CompanyID" Type="String" MaxLength="36" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ProductCode" Type="String" MaxLength="36" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PartNumber" Type="String" MaxLength="36" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PartTypeID" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="AssetID" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="PartName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PartDescription" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PartLongDescription" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="PartCategoryID" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="PartCode" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="PartFamilyID" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="PartGroupID" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="PartSubGroupID" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="DrawingNos" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="PartPosition" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="SalesDescription" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PurchaseDescription" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PictureURL" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="LargePictureURL" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PartWeight" Type="Double" />
+          <Property Name="PartWeightMetric" Type="Double" />
+          <Property Name="PartShipWeight" Type="Int32" />
+          <Property Name="PartSize" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PartSizeCmm" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PartDimentions" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="PartDimentionsCmm" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PartColor" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PartStyle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PartCareInstructions" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="PartDefaultWarehouse" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="PartDefaultWarehouseBin" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="PartLocationX" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="PartLocationY" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="PartLocationZ" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="DownloadLocation" Type="String" MaxLength="120" FixedLength="false" Unicode="true" />
+          <Property Name="DownloadPassword" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="PartUOM" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="PartUOMConvert" Type="Single" />
+          <Property Name="GLPartSalesAccount" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="GLPartCOGSAccount" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="GLInventoryAccount" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="CurrencyID" Type="String" MaxLength="3" FixedLength="false" Unicode="true" />
+          <Property Name="CurrencyExchangeRate" Type="Double" />
+          <Property Name="PartPricingCode" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="PricingMethods" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="Taxable" Type="Boolean" />
+          <Property Name="VendorID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="LeadTime" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="LeadTimeUnit" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="ReOrderLevel" Type="Double" />
+          <Property Name="ReOrderQty" Type="Double" />
+          <Property Name="BuildTime" Type="Int32" />
+          <Property Name="BuildTimeUnit" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="UseageRate" Type="Int32" />
+          <Property Name="UseageRateUnit" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="SalesForecast" Type="Int32" />
+          <Property Name="SalesForecastUnit" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="CalculatedCover" Type="Int32" />
+          <Property Name="CalculatedCoverUnits" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="IsAssembly" Type="Boolean" Nullable="false" />
+          <Property Name="PartAssembly" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="AverageUnitPrice" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="AverageTotalValue" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="LastUnitPrice" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="LastTotalValue" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="QuantityALLStore" Type="Double" />
+          <Property Name="QuantityReserved" Type="Double" />
+          <Property Name="QuantityAvailable" Type="Double" />
+          <Property Name="QuantityBackOrder" Type="Double" />
+          <Property Name="TaxGroupID" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="TaxPercent" Type="Double" />
+          <Property Name="IsActive" Type="Boolean" Nullable="false" />
+          <Property Name="IsStockItem" Type="Boolean" Nullable="false" />
+          <Property Name="OnHold" Type="Boolean" Nullable="false" />
+          <Property Name="Hidden" Type="Boolean" Nullable="false" />
+          <Property Name="AuditUserID" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="AuditDateTime" Type="DateTime" Precision="3" />
+          <Property Name="MinimumLevel" Type="Double" />
+          <Property Name="MaximumLevel" Type="Double" />
+          <Property Name="DateCreated" Type="DateTime" Precision="3" />
+          <Property Name="UseSerialNr" Type="Boolean" />
+          <Property Name="Notes" Type="String" MaxLength="512" FixedLength="false" Unicode="true" />
+          <Property Name="LastSupplier" Type="String" MaxLength="24" FixedLength="false" Unicode="true" />
+          <Property Name="YTDQuantity" Type="Single" />
+          <Property Name="Status" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+          <Property Name="DiscountCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="UseExpiring" Type="Boolean" />
+          <Property Name="GLInventoryVarAccount" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="GLConsumptionAccount" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="StandardPrice" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="RecordID" Type="Guid" Nullable="false" />
+          <Property Name="ArticleNo" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="MakerCodeID" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="ModelNo" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="SerialNo" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="UserCode1" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="UserCode2" Type="String" MaxLength="24" FixedLength="false" Unicode="true" />
+          <Property Name="UserCode3" Type="Int32" />
+          <Property Name="UserCode4" Type="Int32" />
+        </EntityType>
+        <EntityType Name="PT_RequisitionDetail">
+          <Key>
+            <PropertyRef Name="CompanyID" />
+            <PropertyRef Name="TransactionID" />
+            <PropertyRef Name="DivisionID" />
+          </Key>
+          <Property Name="CompanyID" Type="String" MaxLength="36" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TransactionID" Type="String" MaxLength="16" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="RequisitionNumber" Type="String" MaxLength="16" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="LineNumber" Type="Int32" Nullable="false" />
+          <Property Name="ProductCode" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="PartNumber" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="Description" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="UOMID" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+          <Property Name="CategoryID" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="QuantityRequested" Type="Single" Nullable="false" />
+          <Property Name="QuantityQuoted" Type="Single" />
+          <Property Name="QuantityIssued" Type="Single" Nullable="false" />
+          <Property Name="QuantityUsed" Type="Single" Nullable="false" />
+          <Property Name="UsedInPO" Type="Boolean" Nullable="false" />
+          <Property Name="PONumber" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="CurrencyRate" Type="Single" />
+          <Property Name="AveragePrice" Type="Single" />
+          <Property Name="LastPurchasePrice" Type="Single" />
+          <Property Name="ProductAverageValue" Type="Double" />
+          <Property Name="ProductLastPriceValue" Type="Double" />
+          <Property Name="IsClosed" Type="Boolean" Nullable="false" />
+          <Property Name="Remarks" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PartCode" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="AuditUserID" Type="String" MaxLength="24" FixedLength="false" Unicode="true" />
+          <Property Name="AuditDateTime" Type="DateTime" Precision="3" />
+          <Property Name="IsBrowseCleared" Type="Boolean" Nullable="false" />
+          <Property Name="OpeningBalance" Type="Single" />
+          <Property Name="POQuantity" Type="Single" />
+          <Property Name="BOQuantity" Type="Single" />
+          <Property Name="WarehouseID" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="LocationID" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="CurrencyId" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+          <Property Name="QuantityReturned" Type="Single" />
+          <Property Name="BudgetCode" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="UnitCode" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="StateCode" Type="String" MaxLength="4" FixedLength="false" Unicode="true" />
+          <Property Name="ReqUserID" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+          <Property Name="PROReference" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="RecordID" Type="Guid" Nullable="false" />
+          <Property Name="ParentID" Type="Guid" />
+          <Property Name="DivisionID" Type="String" MaxLength="36" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ArticleNo" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="PT_RequisitionHeader" Relationship="Self.FK_PT_RequisitionDetail_PT_RequisitionHeader" FromRole="PT_RequisitionDetail" ToRole="PT_RequisitionHeader" />
+        </EntityType>
+        <EntityType Name="PT_RequisitionHeader">
+          <Key>
+            <PropertyRef Name="CompanyID" />
+            <PropertyRef Name="RequisitionNumber" />
+            <PropertyRef Name="DivisionID" />
+          </Key>
+          <Property Name="CompanyID" Type="String" MaxLength="36" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="RequisitionNumber" Type="String" MaxLength="16" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="UniqueDocNo" Type="Int32" />
+          <Property Name="UserDocNumber" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="Description" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="FaultID" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="TaskID" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="RequisitionDate" Type="DateTime" Precision="3" />
+          <Property Name="ImportanceID" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="CategoryID" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="EmployeeID" Type="String" MaxLength="24" FixedLength="false" Unicode="true" />
+          <Property Name="AssetID" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="BudgetCode" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="UnitCode" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="StateCode" Type="String" MaxLength="4" FixedLength="false" Unicode="true" />
+          <Property Name="DateCompleted" Type="DateTime" Precision="3" />
+          <Property Name="Remarks" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="PartsOrdered" Type="Boolean" />
+          <Property Name="PONumber" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="CurrencyID" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+          <Property Name="TotalAverageValue" Type="Double" />
+          <Property Name="TotalLastPriceValue" Type="Double" />
+          <Property Name="ProjectID" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="PrintingCount" Type="Int32" />
+          <Property Name="Status" Type="String" MaxLength="4" FixedLength="false" Unicode="true" />
+          <Property Name="Approved" Type="Boolean" />
+          <Property Name="IsAutoCreated" Type="Boolean" Nullable="false" />
+          <Property Name="IsCompleted" Type="Boolean" Nullable="false" />
+          <Property Name="IsClosed" Type="Boolean" Nullable="false" />
+          <Property Name="PartsIssued" Type="Boolean" />
+          <Property Name="AuditDateTime" Type="DateTime" Precision="3" />
+          <Property Name="AuditUserID" Type="String" MaxLength="24" FixedLength="false" Unicode="true" />
+          <Property Name="ReqShipAction" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="SiteID" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="HasPO" Type="Boolean" />
+          <Property Name="OrderBy" Type="String" MaxLength="24" FixedLength="false" Unicode="true" />
+          <Property Name="VendorID" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="EmployeeName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="DocCreatorID" Type="String" MaxLength="24" FixedLength="false" Unicode="true" />
+          <Property Name="RequestTypeID" Type="Int32" Nullable="false" />
+          <Property Name="ChargeTo" Type="Int32" Nullable="false" />
+          <Property Name="GLAccountNumber" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="GLAccountName" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+          <Property Name="SourceCostCentre" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="MeterReading" Type="Double" />
+          <Property Name="SvcChargeUpdated" Type="Boolean" />
+          <Property Name="SvcAuditUserID" Type="String" MaxLength="24" FixedLength="false" Unicode="true" />
+          <Property Name="SvcAuditDatetime" Type="DateTime" Precision="3" />
+          <Property Name="Cancelled" Type="Boolean" />
+          <Property Name="DateCancelled" Type="DateTime" Precision="3" />
+          <Property Name="cancelledBy" Type="String" MaxLength="24" FixedLength="false" Unicode="true" />
+          <Property Name="CancelReason" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="RequisitionNo2" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="ReapairBox" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="RecordID" Type="Guid" Nullable="false" />
+          <Property Name="ParentID" Type="Guid" />
+          <Property Name="DivisionID" Type="String" MaxLength="36" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="JobID" Type="Int32" />
+          <Property Name="StatusID" Type="Int32" />
+          <Property Name="ReasonCode" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="PT_RequisitionDetail" Relationship="Self.FK_PT_RequisitionDetail_PT_RequisitionHeader" FromRole="PT_RequisitionHeader" ToRole="PT_RequisitionDetail" />
+          <NavigationProperty Name="PT_RequisitionHeader1" Relationship="Self.FK_PT_RequisitionHeader_PT_RequisitionHeader" FromRole="PT_RequisitionHeader" ToRole="PT_RequisitionHeader1" />
+          <NavigationProperty Name="PT_RequisitionHeader2" Relationship="Self.FK_PT_RequisitionHeader_PT_RequisitionHeader" FromRole="PT_RequisitionHeader1" ToRole="PT_RequisitionHeader" />
+        </EntityType>
+        <Association Name="FK_PO_Detail_PO_Header">
+          <End Role="PO_Header" Type="Self.PO_Header" Multiplicity="1" />
+          <End Role="PO_Detail" Type="Self.PO_Detail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PO_Header">
+              <PropertyRef Name="CompanyID" />
+              <PropertyRef Name="PONumber" />
+            </Principal>
+            <Dependent Role="PO_Detail">
+              <PropertyRef Name="CompanyID" />
+              <PropertyRef Name="PONumber" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PO_FollowupDetail_PO_FollowupDetail">
+          <End Role="PO_FollowupHeader" Type="Self.PO_FollowupHeader" Multiplicity="1" />
+          <End Role="PO_FollowupDetail" Type="Self.PO_FollowupDetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PO_FollowupHeader">
+              <PropertyRef Name="FollowUpNumber" />
+            </Principal>
+            <Dependent Role="PO_FollowupDetail">
+              <PropertyRef Name="FollowupNumber" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PT_RequisitionDetail_PT_RequisitionHeader">
+          <End Role="PT_RequisitionHeader" Type="Self.PT_RequisitionHeader" Multiplicity="1" />
+          <End Role="PT_RequisitionDetail" Type="Self.PT_RequisitionDetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PT_RequisitionHeader">
+              <PropertyRef Name="CompanyID" />
+              <PropertyRef Name="DivisionID" />
+              <PropertyRef Name="RequisitionNumber" />
+            </Principal>
+            <Dependent Role="PT_RequisitionDetail">
+              <PropertyRef Name="CompanyID" />
+              <PropertyRef Name="DivisionID" />
+              <PropertyRef Name="RequisitionNumber" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PT_RequisitionHeader_PT_RequisitionHeader">
+          <End Role="PT_RequisitionHeader" Type="Self.PT_RequisitionHeader" Multiplicity="1" />
+          <End Role="PT_RequisitionHeader1" Type="Self.PT_RequisitionHeader" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="PT_RequisitionHeader">
+              <PropertyRef Name="CompanyID" />
+              <PropertyRef Name="DivisionID" />
+              <PropertyRef Name="RequisitionNumber" />
+            </Principal>
+            <Dependent Role="PT_RequisitionHeader1">
+              <PropertyRef Name="CompanyID" />
+              <PropertyRef Name="DivisionID" />
+              <PropertyRef Name="RequisitionNumber" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="WMDBDEMOEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="PO_Detail" EntityType="Self.PO_Detail" />
+          <EntitySet Name="PO_FollowupDetail" EntityType="Self.PO_FollowupDetail" />
+          <EntitySet Name="PO_FollowupHeader" EntityType="Self.PO_FollowupHeader" />
+          <EntitySet Name="PO_Header" EntityType="Self.PO_Header" />
+          <EntitySet Name="PT_Parts" EntityType="Self.PT_Parts" />
+          <EntitySet Name="PT_RequisitionDetail" EntityType="Self.PT_RequisitionDetail" />
+          <EntitySet Name="PT_RequisitionHeader" EntityType="Self.PT_RequisitionHeader" />
+          <AssociationSet Name="FK_PO_Detail_PO_Header" Association="Self.FK_PO_Detail_PO_Header">
+            <End Role="PO_Header" EntitySet="PO_Header" />
+            <End Role="PO_Detail" EntitySet="PO_Detail" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PO_FollowupDetail_PO_FollowupDetail" Association="Self.FK_PO_FollowupDetail_PO_FollowupDetail">
+            <End Role="PO_FollowupHeader" EntitySet="PO_FollowupHeader" />
+            <End Role="PO_FollowupDetail" EntitySet="PO_FollowupDetail" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PT_RequisitionDetail_PT_RequisitionHeader" Association="Self.FK_PT_RequisitionDetail_PT_RequisitionHeader">
+            <End Role="PT_RequisitionHeader" EntitySet="PT_RequisitionHeader" />
+            <End Role="PT_RequisitionDetail" EntitySet="PT_RequisitionDetail" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PT_RequisitionHeader_PT_RequisitionHeader" Association="Self.FK_PT_RequisitionHeader_PT_RequisitionHeader">
+            <End Role="PT_RequisitionHeader" EntitySet="PT_RequisitionHeader" />
+            <End Role="PT_RequisitionHeader1" EntitySet="PT_RequisitionHeader" />
+          </AssociationSet>
+          <EntitySet Name="PayEmployees" EntityType="WMDBDEMOModel.PayEmployee" />
+        </EntityContainer>
+        <EntityType Name="PayEmployee">
+          <Key>
+            <PropertyRef Name="CompanyID" />
+            <PropertyRef Name="DivisionID" />
+            <PropertyRef Name="DepartmentID" />
+            <PropertyRef Name="EmployeeID" />
+          </Key>
+          <Property Name="CompanyID" Type="String" Nullable="false" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="DivisionID" Type="String" Nullable="false" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="DepartmentID" Type="String" Nullable="false" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="EmployeeID" Type="String" Nullable="false" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="EmployeeTypeID" Type="String" Nullable="false" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="EmployeeTitle" Type="String" MaxLength="24" FixedLength="false" Unicode="true" />
+          <Property Name="LastName" Type="String" Nullable="false" MaxLength="24" FixedLength="false" Unicode="true" />
+          <Property Name="MiddleName" Type="String" MaxLength="24" FixedLength="false" Unicode="true" />
+          <Property Name="FirstName" Type="String" Nullable="false" MaxLength="24" FixedLength="false" Unicode="true" />
+          <Property Name="EmployeeCategoryID" Type="String" Nullable="false" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="EmployeeUserName" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="EmployeePassword" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="EmployeePasswordOld" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="EmployeePasswordDate" Type="DateTime" Precision="3" />
+          <Property Name="EmployeePasswordExpires" Type="Boolean" />
+          <Property Name="BankID" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="BankAccountNo" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="BankID2" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="BankAccountNo2" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="Nationality" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="EthnicGroup" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="Religion" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="Gender" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+          <Property Name="MaritalStatus" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="NoOfChildren" Type="Int32" />
+          <Property Name="NOfDependant" Type="Int32" />
+          <Property Name="BloodGroup" Type="String" MaxLength="3" FixedLength="false" Unicode="true" />
+          <Property Name="Genotype" Type="String" MaxLength="3" FixedLength="false" Unicode="true" />
+          <Property Name="EmployeeWeight" Type="Single" />
+          <Property Name="EmployeeHeight" Type="Single" />
+          <Property Name="StatusID" Type="String" Nullable="false" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="JobRole" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="JobCategory" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="ActiveYN" Type="Boolean" />
+          <Property Name="EmployeeAddress1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="EmployeeAddress2" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="EmployeeCity" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="EmployeeState" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="EmployeeCountry" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="EmployeePhone" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="EmployeeFax" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="EmployeeNationalID" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="EmployeeEmailAddress" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+          <Property Name="EmployeeDepartmentID" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="EmployeeSection" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="EmployeeRegionID" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="EmployeeBranchID" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="EmployeeSourceID" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="EmployeeIndustryID" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="EmployeeManager" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="PictureURL" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Name="HireDate" Type="DateTime" Precision="3" />
+          <Property Name="Birthday" Type="DateTime" Precision="3" />
+          <Property Name="DateConfirmed" Type="DateTime" Precision="3" />
+          <Property Name="Commissionable" Type="Boolean" />
+          <Property Name="CommissionPerc" Type="Double" />
+          <Property Name="CommissionCalcMethod" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+          <Property Name="GradeId" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="GradeStep" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="NextOfKinName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="NextOfKinAddr1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="NextOfKinAddr2" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="NextOfKinNumber" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="PermanetAddress1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PermanetAddress2" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="NSITFEnabled" Type="Boolean" />
+          <Property Name="NSITFNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="NSITFStartDate" Type="DateTime" Precision="3" />
+          <Property Name="NHFEnabled" Type="Boolean" />
+          <Property Name="NHFNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="NHFStartDate" Type="DateTime" Precision="3" />
+          <Property Name="TaxExcempted" Type="Boolean" />
+          <Property Name="AutomaticTaxRelief" Type="Boolean" />
+          <Property Name="TaxOfficeAnualReturn" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="TaxOfficeMonthlyReturn" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="TaxID" Type="String" MaxLength="24" FixedLength="false" Unicode="true" />
+          <Property Name="TaxStateID" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="NSITFStateID" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="NHFStateID" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="InsuranceCoyID" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="InsuranceNo" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="EmployeeHoursPerDay" Type="Double" />
+          <Property Name="EmployeeID2" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="UseTimeSheet" Type="Boolean" />
+          <Property Name="MonthToDateGross" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="MonthToDateFederal" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="MonthToDateState" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="MonthToDateLocal" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="MonthToDateOther" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="QuarterToDateGross" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="QuarterToDateFederal" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="QuarterToDateState" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="QuarterToDateLocal" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="QuarterToDateOther" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="YearToDateGross" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="YearToDateFederal" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="YearToDateState" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="YearToDateLocal" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="YearToDateOther" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="DenyLogon" Type="Boolean" />
+          <Property Name="RequestID" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="ApprovalID" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="RequestType" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+          <Property Name="HasFingerPrint" Type="Boolean" Nullable="false" />
+          <Property Name="HasPhoto" Type="Boolean" Nullable="false" />
+          <Property Name="ClockInLocID" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="GratuityPaid" Type="Boolean" />
+          <Property Name="GratuityDate" Type="DateTime" Precision="3" />
+          <Property Name="Approved" Type="Boolean" />
+          <Property Name="ApprovedBy" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="ApprovedDate" Type="DateTime" Precision="3" />
+          <Property Name="Notes" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="EnteredBy" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="AuditCompanyID" Type="String" MaxLength="24" FixedLength="false" Unicode="true" />
+          <Property Name="AuditDateTime" Type="DateTime" Precision="3" />
+          <Property Name="AuditUserID" Type="String" MaxLength="24" FixedLength="false" Unicode="true" />
+          <Property Name="LockedBy" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="LockTS" Type="DateTime" Precision="3" />
+          <Property Name="IsHandled" Type="Boolean" Nullable="false" />
+          <Property Name="ProcessType" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+          <Property Name="CostCentreID" Type="String" MaxLength="36" FixedLength="false" Unicode="true" />
+          <Property Name="TAUserID" Type="Int32" />
+          <Property Name="HasNOT" Type="Boolean" />
+          <Property Name="HasWOT" Type="Boolean" />
+          <Property Name="HasPHOT" Type="Boolean" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="WMDBDEMOModelStoreContainer" CdmEntityContainer="WMDBDEMOEntities">
+          <EntitySetMapping Name="PO_Detail">
+            <EntityTypeMapping TypeName="WMDBDEMOModel.PO_Detail">
+              <MappingFragment StoreEntitySet="PO_Detail">
+                <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+                <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+                <ScalarProperty Name="PONumber" ColumnName="PONumber" />
+                <ScalarProperty Name="ProductCode" ColumnName="ProductCode" />
+                <ScalarProperty Name="PartNumber" ColumnName="PartNumber" />
+                <ScalarProperty Name="PartNumber1" ColumnName="PartNumber1" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="RequisitionNumber" ColumnName="RequisitionNumber" />
+                <ScalarProperty Name="Linenumber" ColumnName="Linenumber" />
+                <ScalarProperty Name="QuantityOnPO" ColumnName="QuantityOnPO" />
+                <ScalarProperty Name="QuantitySupplied" ColumnName="QuantitySupplied" />
+                <ScalarProperty Name="QuantityOnHH" ColumnName="QuantityOnHH" />
+                <ScalarProperty Name="QuantityOnBB" ColumnName="QuantityOnBB" />
+                <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+                <ScalarProperty Name="CurrencyRate" ColumnName="CurrencyRate" />
+                <ScalarProperty Name="LocalValue" ColumnName="LocalValue" />
+                <ScalarProperty Name="TotalValue" ColumnName="TotalValue" />
+                <ScalarProperty Name="IsCompleted" ColumnName="IsCompleted" />
+                <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+                <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+                <ScalarProperty Name="AuditDateTime" ColumnName="AuditDateTime" />
+                <ScalarProperty Name="LastUnitPrice" ColumnName="LastUnitPrice" />
+                <ScalarProperty Name="BOQuantity" ColumnName="BOQuantity" />
+                <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+                <ScalarProperty Name="UOMID" ColumnName="UOMID" />
+                <ScalarProperty Name="QuantityRequested" ColumnName="QuantityRequested" />
+                <ScalarProperty Name="DivisionID" ColumnName="DivisionID" />
+                <ScalarProperty Name="ArticleNo" ColumnName="ArticleNo" />
+                <ScalarProperty Name="UserFld1" ColumnName="UserFld1" />
+                <ScalarProperty Name="UserFld2" ColumnName="UserFld2" />
+                <ScalarProperty Name="UserFld3" ColumnName="UserFld3" />
+                <ScalarProperty Name="UserFld4" ColumnName="UserFld4" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PO_FollowupDetail">
+            <EntityTypeMapping TypeName="WMDBDEMOModel.PO_FollowupDetail">
+              <MappingFragment StoreEntitySet="PO_FollowupDetail">
+                <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+                <ScalarProperty Name="LineNumber" ColumnName="LineNumber" />
+                <ScalarProperty Name="FollowupNumber" ColumnName="FollowupNumber" />
+                <ScalarProperty Name="ProductCode" ColumnName="ProductCode" />
+                <ScalarProperty Name="PartNumber" ColumnName="PartNumber" />
+                <ScalarProperty Name="AliasNumber" ColumnName="AliasNumber" />
+                <ScalarProperty Name="PartName" ColumnName="PartName" />
+                <ScalarProperty Name="PoQuantity" ColumnName="PoQuantity" />
+                <ScalarProperty Name="BBQuantity" ColumnName="BBQuantity" />
+                <ScalarProperty Name="HHQuantity" ColumnName="HHQuantity" />
+                <ScalarProperty Name="QuantityArrived" ColumnName="QuantityArrived" />
+                <ScalarProperty Name="ExchangeRate" ColumnName="ExchangeRate" />
+                <ScalarProperty Name="SourceUnitPrice" ColumnName="SourceUnitPrice" />
+                <ScalarProperty Name="SourceDiscountRate" ColumnName="SourceDiscountRate" />
+                <ScalarProperty Name="SourceAmount" ColumnName="SourceAmount" />
+                <ScalarProperty Name="BaseUnitPrice" ColumnName="BaseUnitPrice" />
+                <ScalarProperty Name="Closed" ColumnName="Closed" />
+                <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+                <ScalarProperty Name="AuditDateTime" ColumnName="AuditDateTime" />
+                <ScalarProperty Name="DivisionID" ColumnName="DivisionID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PO_FollowupHeader">
+            <EntityTypeMapping TypeName="WMDBDEMOModel.PO_FollowupHeader">
+              <MappingFragment StoreEntitySet="PO_FollowupHeader">
+                <ScalarProperty Name="FollowUpNumber" ColumnName="FollowUpNumber" />
+                <ScalarProperty Name="PoNumber" ColumnName="PoNumber" />
+                <ScalarProperty Name="BBNumber" ColumnName="BBNumber" />
+                <ScalarProperty Name="HHNumber" ColumnName="HHNumber" />
+                <ScalarProperty Name="ETA" ColumnName="ETA" />
+                <ScalarProperty Name="ShipAction" ColumnName="ShipAction" />
+                <ScalarProperty Name="PoStatus" ColumnName="PoStatus" />
+                <ScalarProperty Name="ArrivalDate" ColumnName="ArrivalDate" />
+                <ScalarProperty Name="ReceiptNumber" ColumnName="ReceiptNumber" />
+                <ScalarProperty Name="ExchangeRate" ColumnName="ExchangeRate" />
+                <ScalarProperty Name="SourceTotalValue" ColumnName="SourceTotalValue" />
+                <ScalarProperty Name="BaseTotalValue" ColumnName="BaseTotalValue" />
+                <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+                <ScalarProperty Name="FollowUpDate" ColumnName="FollowUpDate" />
+                <ScalarProperty Name="IsCompleted" ColumnName="IsCompleted" />
+                <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+                <ScalarProperty Name="AuditDateTime" ColumnName="AuditDateTime" />
+                <ScalarProperty Name="FollowUpType" ColumnName="FollowUpType" />
+                <ScalarProperty Name="ShipInfoID" ColumnName="ShipInfoID" />
+                <ScalarProperty Name="BBDate" ColumnName="BBDate" />
+                <ScalarProperty Name="HHDate" ColumnName="HHDate" />
+                <ScalarProperty Name="DivisionID" ColumnName="DivisionID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PO_Header">
+            <EntityTypeMapping TypeName="WMDBDEMOModel.PO_Header">
+              <MappingFragment StoreEntitySet="PO_Header">
+                <ScalarProperty Name="Sno" ColumnName="Sno" />
+                <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+                <ScalarProperty Name="PONumber" ColumnName="PONumber" />
+                <ScalarProperty Name="PODate" ColumnName="PODate" />
+                <ScalarProperty Name="CurrencyID" ColumnName="CurrencyID" />
+                <ScalarProperty Name="RequisitionNumber" ColumnName="RequisitionNumber" />
+                <ScalarProperty Name="IsCompleted" ColumnName="IsCompleted" />
+                <ScalarProperty Name="CompletedDate" ColumnName="CompletedDate" />
+                <ScalarProperty Name="PODueDate" ColumnName="PODueDate" />
+                <ScalarProperty Name="SupplierId" ColumnName="SupplierId" />
+                <ScalarProperty Name="TermsId" ColumnName="TermsId" />
+                <ScalarProperty Name="ReqShipAction" ColumnName="ReqShipAction" />
+                <ScalarProperty Name="ShipAction" ColumnName="ShipAction" />
+                <ScalarProperty Name="AssetID" ColumnName="AssetID" />
+                <ScalarProperty Name="BudgetCode" ColumnName="BudgetCode" />
+                <ScalarProperty Name="UnitCode" ColumnName="UnitCode" />
+                <ScalarProperty Name="StateCode" ColumnName="StateCode" />
+                <ScalarProperty Name="HHNumber" ColumnName="HHNumber" />
+                <ScalarProperty Name="HHSTS" ColumnName="HHSTS" />
+                <ScalarProperty Name="BBSTS" ColumnName="BBSTS" />
+                <ScalarProperty Name="ETA" ColumnName="ETA" />
+                <ScalarProperty Name="ExchangeRate" ColumnName="ExchangeRate" />
+                <ScalarProperty Name="TotalValue" ColumnName="TotalValue" />
+                <ScalarProperty Name="ReceivedTotalValue" ColumnName="ReceivedTotalValue" />
+                <ScalarProperty Name="BBNumber" ColumnName="BBNumber" />
+                <ScalarProperty Name="FUpNumber" ColumnName="FUpNumber" />
+                <ScalarProperty Name="ShipInfoID" ColumnName="ShipInfoID" />
+                <ScalarProperty Name="OrderTo" ColumnName="OrderTo" />
+                <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+                <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="Importance" ColumnName="Importance" />
+                <ScalarProperty Name="StatusReason" ColumnName="StatusReason" />
+                <ScalarProperty Name="InvoiceNumber" ColumnName="InvoiceNumber" />
+                <ScalarProperty Name="DeliveryNumber" ColumnName="DeliveryNumber" />
+                <ScalarProperty Name="ArrivalDate" ColumnName="ArrivalDate" />
+                <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+                <ScalarProperty Name="AuditDateTime" ColumnName="AuditDateTime" />
+                <ScalarProperty Name="PoSourceID" ColumnName="PoSourceID" />
+                <ScalarProperty Name="DeliverAddress1" ColumnName="DeliverAddress1" />
+                <ScalarProperty Name="DeliverAddress2" ColumnName="DeliverAddress2" />
+                <ScalarProperty Name="DeliverAddress3" ColumnName="DeliverAddress3" />
+                <ScalarProperty Name="DeliverAddress4" ColumnName="DeliverAddress4" />
+                <ScalarProperty Name="DeliverAttention" ColumnName="DeliverAttention" />
+                <ScalarProperty Name="ProposedDate" ColumnName="ProposedDate" />
+                <ScalarProperty Name="VendorAddress1" ColumnName="VendorAddress1" />
+                <ScalarProperty Name="VendorAddress2" ColumnName="VendorAddress2" />
+                <ScalarProperty Name="VendorAddress3" ColumnName="VendorAddress3" />
+                <ScalarProperty Name="VendorAddress4" ColumnName="VendorAddress4" />
+                <ScalarProperty Name="VendorContact" ColumnName="VendorContact" />
+                <ScalarProperty Name="InvoiceAddress1" ColumnName="InvoiceAddress1" />
+                <ScalarProperty Name="InvoiceAddress2" ColumnName="InvoiceAddress2" />
+                <ScalarProperty Name="invoiceAddress3" ColumnName="invoiceAddress3" />
+                <ScalarProperty Name="InvoiceAddress4" ColumnName="InvoiceAddress4" />
+                <ScalarProperty Name="InvoiceContact" ColumnName="InvoiceContact" />
+                <ScalarProperty Name="CostCode" ColumnName="CostCode" />
+                <ScalarProperty Name="IsSigned" ColumnName="IsSigned" />
+                <ScalarProperty Name="DateSigned" ColumnName="DateSigned" />
+                <ScalarProperty Name="SignedBy" ColumnName="SignedBy" />
+                <ScalarProperty Name="CurrencySeperator" ColumnName="CurrencySeperator" />
+                <ScalarProperty Name="CalculateTax" ColumnName="CalculateTax" />
+                <ScalarProperty Name="TaxInclusive" ColumnName="TaxInclusive" />
+                <ScalarProperty Name="TaxRate" ColumnName="TaxRate" />
+                <ScalarProperty Name="TotalTaxValue" ColumnName="TotalTaxValue" />
+                <ScalarProperty Name="FreightCharges" ColumnName="FreightCharges" />
+                <ScalarProperty Name="LocalTransport" ColumnName="LocalTransport" />
+                <ScalarProperty Name="OtherCharges" ColumnName="OtherCharges" />
+                <ScalarProperty Name="PoTypeID" ColumnName="PoTypeID" />
+                <ScalarProperty Name="DivisionID" ColumnName="DivisionID" />
+                <ScalarProperty Name="RefDoc1" ColumnName="RefDoc1" />
+                <ScalarProperty Name="RefDoc1Date" ColumnName="RefDoc1Date" />
+                <ScalarProperty Name="RefDoc2" ColumnName="RefDoc2" />
+                <ScalarProperty Name="RefDoc2Date" ColumnName="RefDoc2Date" />
+                <ScalarProperty Name="ReasonCode" ColumnName="ReasonCode" />
+                <ScalarProperty Name="PrintOption" ColumnName="PrintOption" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PT_Parts">
+            <EntityTypeMapping TypeName="WMDBDEMOModel.PT_Parts">
+              <MappingFragment StoreEntitySet="PT_Parts">
+                <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+                <ScalarProperty Name="ProductCode" ColumnName="ProductCode" />
+                <ScalarProperty Name="PartNumber" ColumnName="PartNumber" />
+                <ScalarProperty Name="PartTypeID" ColumnName="PartTypeID" />
+                <ScalarProperty Name="AssetID" ColumnName="AssetID" />
+                <ScalarProperty Name="PartName" ColumnName="PartName" />
+                <ScalarProperty Name="PartDescription" ColumnName="PartDescription" />
+                <ScalarProperty Name="PartLongDescription" ColumnName="PartLongDescription" />
+                <ScalarProperty Name="PartCategoryID" ColumnName="PartCategoryID" />
+                <ScalarProperty Name="PartCode" ColumnName="PartCode" />
+                <ScalarProperty Name="PartFamilyID" ColumnName="PartFamilyID" />
+                <ScalarProperty Name="PartGroupID" ColumnName="PartGroupID" />
+                <ScalarProperty Name="PartSubGroupID" ColumnName="PartSubGroupID" />
+                <ScalarProperty Name="DrawingNos" ColumnName="DrawingNos" />
+                <ScalarProperty Name="PartPosition" ColumnName="PartPosition" />
+                <ScalarProperty Name="SalesDescription" ColumnName="SalesDescription" />
+                <ScalarProperty Name="PurchaseDescription" ColumnName="PurchaseDescription" />
+                <ScalarProperty Name="PictureURL" ColumnName="PictureURL" />
+                <ScalarProperty Name="LargePictureURL" ColumnName="LargePictureURL" />
+                <ScalarProperty Name="PartWeight" ColumnName="PartWeight" />
+                <ScalarProperty Name="PartWeightMetric" ColumnName="PartWeightMetric" />
+                <ScalarProperty Name="PartShipWeight" ColumnName="PartShipWeight" />
+                <ScalarProperty Name="PartSize" ColumnName="PartSize" />
+                <ScalarProperty Name="PartSizeCmm" ColumnName="PartSizeCmm" />
+                <ScalarProperty Name="PartDimentions" ColumnName="PartDimentions" />
+                <ScalarProperty Name="PartDimentionsCmm" ColumnName="PartDimentionsCmm" />
+                <ScalarProperty Name="PartColor" ColumnName="PartColor" />
+                <ScalarProperty Name="PartStyle" ColumnName="PartStyle" />
+                <ScalarProperty Name="PartCareInstructions" ColumnName="PartCareInstructions" />
+                <ScalarProperty Name="PartDefaultWarehouse" ColumnName="PartDefaultWarehouse" />
+                <ScalarProperty Name="PartDefaultWarehouseBin" ColumnName="PartDefaultWarehouseBin" />
+                <ScalarProperty Name="PartLocationX" ColumnName="PartLocationX" />
+                <ScalarProperty Name="PartLocationY" ColumnName="PartLocationY" />
+                <ScalarProperty Name="PartLocationZ" ColumnName="PartLocationZ" />
+                <ScalarProperty Name="DownloadLocation" ColumnName="DownloadLocation" />
+                <ScalarProperty Name="DownloadPassword" ColumnName="DownloadPassword" />
+                <ScalarProperty Name="PartUOM" ColumnName="PartUOM" />
+                <ScalarProperty Name="PartUOMConvert" ColumnName="PartUOMConvert" />
+                <ScalarProperty Name="GLPartSalesAccount" ColumnName="GLPartSalesAccount" />
+                <ScalarProperty Name="GLPartCOGSAccount" ColumnName="GLPartCOGSAccount" />
+                <ScalarProperty Name="GLInventoryAccount" ColumnName="GLInventoryAccount" />
+                <ScalarProperty Name="CurrencyID" ColumnName="CurrencyID" />
+                <ScalarProperty Name="CurrencyExchangeRate" ColumnName="CurrencyExchangeRate" />
+                <ScalarProperty Name="PartPricingCode" ColumnName="PartPricingCode" />
+                <ScalarProperty Name="PricingMethods" ColumnName="PricingMethods" />
+                <ScalarProperty Name="Taxable" ColumnName="Taxable" />
+                <ScalarProperty Name="VendorID" ColumnName="VendorID" />
+                <ScalarProperty Name="LeadTime" ColumnName="LeadTime" />
+                <ScalarProperty Name="LeadTimeUnit" ColumnName="LeadTimeUnit" />
+                <ScalarProperty Name="ReOrderLevel" ColumnName="ReOrderLevel" />
+                <ScalarProperty Name="ReOrderQty" ColumnName="ReOrderQty" />
+                <ScalarProperty Name="BuildTime" ColumnName="BuildTime" />
+                <ScalarProperty Name="BuildTimeUnit" ColumnName="BuildTimeUnit" />
+                <ScalarProperty Name="UseageRate" ColumnName="UseageRate" />
+                <ScalarProperty Name="UseageRateUnit" ColumnName="UseageRateUnit" />
+                <ScalarProperty Name="SalesForecast" ColumnName="SalesForecast" />
+                <ScalarProperty Name="SalesForecastUnit" ColumnName="SalesForecastUnit" />
+                <ScalarProperty Name="CalculatedCover" ColumnName="CalculatedCover" />
+                <ScalarProperty Name="CalculatedCoverUnits" ColumnName="CalculatedCoverUnits" />
+                <ScalarProperty Name="IsAssembly" ColumnName="IsAssembly" />
+                <ScalarProperty Name="PartAssembly" ColumnName="PartAssembly" />
+                <ScalarProperty Name="AverageUnitPrice" ColumnName="AverageUnitPrice" />
+                <ScalarProperty Name="AverageTotalValue" ColumnName="AverageTotalValue" />
+                <ScalarProperty Name="LastUnitPrice" ColumnName="LastUnitPrice" />
+                <ScalarProperty Name="LastTotalValue" ColumnName="LastTotalValue" />
+                <ScalarProperty Name="QuantityALLStore" ColumnName="QuantityALLStore" />
+                <ScalarProperty Name="QuantityReserved" ColumnName="QuantityReserved" />
+                <ScalarProperty Name="QuantityAvailable" ColumnName="QuantityAvailable" />
+                <ScalarProperty Name="QuantityBackOrder" ColumnName="QuantityBackOrder" />
+                <ScalarProperty Name="TaxGroupID" ColumnName="TaxGroupID" />
+                <ScalarProperty Name="TaxPercent" ColumnName="TaxPercent" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="IsStockItem" ColumnName="IsStockItem" />
+                <ScalarProperty Name="OnHold" ColumnName="OnHold" />
+                <ScalarProperty Name="Hidden" ColumnName="Hidden" />
+                <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+                <ScalarProperty Name="AuditDateTime" ColumnName="AuditDateTime" />
+                <ScalarProperty Name="MinimumLevel" ColumnName="MinimumLevel" />
+                <ScalarProperty Name="MaximumLevel" ColumnName="MaximumLevel" />
+                <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+                <ScalarProperty Name="UseSerialNr" ColumnName="UseSerialNr" />
+                <ScalarProperty Name="Notes" ColumnName="Notes" />
+                <ScalarProperty Name="LastSupplier" ColumnName="LastSupplier" />
+                <ScalarProperty Name="YTDQuantity" ColumnName="YTDQuantity" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="DiscountCode" ColumnName="DiscountCode" />
+                <ScalarProperty Name="UseExpiring" ColumnName="UseExpiring" />
+                <ScalarProperty Name="GLInventoryVarAccount" ColumnName="GLInventoryVarAccount" />
+                <ScalarProperty Name="GLConsumptionAccount" ColumnName="GLConsumptionAccount" />
+                <ScalarProperty Name="StandardPrice" ColumnName="StandardPrice" />
+                <ScalarProperty Name="RecordID" ColumnName="RecordID" />
+                <ScalarProperty Name="ArticleNo" ColumnName="ArticleNo" />
+                <ScalarProperty Name="MakerCodeID" ColumnName="MakerCodeID" />
+                <ScalarProperty Name="ModelNo" ColumnName="ModelNo" />
+                <ScalarProperty Name="SerialNo" ColumnName="SerialNo" />
+                <ScalarProperty Name="UserCode1" ColumnName="UserCode1" />
+                <ScalarProperty Name="UserCode2" ColumnName="UserCode2" />
+                <ScalarProperty Name="UserCode3" ColumnName="UserCode3" />
+                <ScalarProperty Name="UserCode4" ColumnName="UserCode4" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PT_RequisitionDetail">
+            <EntityTypeMapping TypeName="WMDBDEMOModel.PT_RequisitionDetail">
+              <MappingFragment StoreEntitySet="PT_RequisitionDetail">
+                <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+                <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+                <ScalarProperty Name="RequisitionNumber" ColumnName="RequisitionNumber" />
+                <ScalarProperty Name="LineNumber" ColumnName="LineNumber" />
+                <ScalarProperty Name="ProductCode" ColumnName="ProductCode" />
+                <ScalarProperty Name="PartNumber" ColumnName="PartNumber" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="UOMID" ColumnName="UOMID" />
+                <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+                <ScalarProperty Name="QuantityRequested" ColumnName="QuantityRequested" />
+                <ScalarProperty Name="QuantityQuoted" ColumnName="QuantityQuoted" />
+                <ScalarProperty Name="QuantityIssued" ColumnName="QuantityIssued" />
+                <ScalarProperty Name="QuantityUsed" ColumnName="QuantityUsed" />
+                <ScalarProperty Name="UsedInPO" ColumnName="UsedInPO" />
+                <ScalarProperty Name="PONumber" ColumnName="PONumber" />
+                <ScalarProperty Name="CurrencyRate" ColumnName="CurrencyRate" />
+                <ScalarProperty Name="AveragePrice" ColumnName="AveragePrice" />
+                <ScalarProperty Name="LastPurchasePrice" ColumnName="LastPurchasePrice" />
+                <ScalarProperty Name="ProductAverageValue" ColumnName="ProductAverageValue" />
+                <ScalarProperty Name="ProductLastPriceValue" ColumnName="ProductLastPriceValue" />
+                <ScalarProperty Name="IsClosed" ColumnName="IsClosed" />
+                <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+                <ScalarProperty Name="PartCode" ColumnName="PartCode" />
+                <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+                <ScalarProperty Name="AuditDateTime" ColumnName="AuditDateTime" />
+                <ScalarProperty Name="IsBrowseCleared" ColumnName="IsBrowseCleared" />
+                <ScalarProperty Name="OpeningBalance" ColumnName="OpeningBalance" />
+                <ScalarProperty Name="POQuantity" ColumnName="POQuantity" />
+                <ScalarProperty Name="BOQuantity" ColumnName="BOQuantity" />
+                <ScalarProperty Name="WarehouseID" ColumnName="WarehouseID" />
+                <ScalarProperty Name="LocationID" ColumnName="LocationID" />
+                <ScalarProperty Name="CurrencyId" ColumnName="CurrencyId" />
+                <ScalarProperty Name="QuantityReturned" ColumnName="QuantityReturned" />
+                <ScalarProperty Name="BudgetCode" ColumnName="BudgetCode" />
+                <ScalarProperty Name="UnitCode" ColumnName="UnitCode" />
+                <ScalarProperty Name="StateCode" ColumnName="StateCode" />
+                <ScalarProperty Name="ReqUserID" ColumnName="ReqUserID" />
+                <ScalarProperty Name="PROReference" ColumnName="PROReference" />
+                <ScalarProperty Name="RecordID" ColumnName="RecordID" />
+                <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+                <ScalarProperty Name="DivisionID" ColumnName="DivisionID" />
+                <ScalarProperty Name="ArticleNo" ColumnName="ArticleNo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PT_RequisitionHeader">
+            <EntityTypeMapping TypeName="WMDBDEMOModel.PT_RequisitionHeader">
+              <MappingFragment StoreEntitySet="PT_RequisitionHeader">
+                <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+                <ScalarProperty Name="RequisitionNumber" ColumnName="RequisitionNumber" />
+                <ScalarProperty Name="UniqueDocNo" ColumnName="UniqueDocNo" />
+                <ScalarProperty Name="UserDocNumber" ColumnName="UserDocNumber" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="FaultID" ColumnName="FaultID" />
+                <ScalarProperty Name="TaskID" ColumnName="TaskID" />
+                <ScalarProperty Name="RequisitionDate" ColumnName="RequisitionDate" />
+                <ScalarProperty Name="ImportanceID" ColumnName="ImportanceID" />
+                <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+                <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+                <ScalarProperty Name="AssetID" ColumnName="AssetID" />
+                <ScalarProperty Name="BudgetCode" ColumnName="BudgetCode" />
+                <ScalarProperty Name="UnitCode" ColumnName="UnitCode" />
+                <ScalarProperty Name="StateCode" ColumnName="StateCode" />
+                <ScalarProperty Name="DateCompleted" ColumnName="DateCompleted" />
+                <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+                <ScalarProperty Name="PartsOrdered" ColumnName="PartsOrdered" />
+                <ScalarProperty Name="PONumber" ColumnName="PONumber" />
+                <ScalarProperty Name="CurrencyID" ColumnName="CurrencyID" />
+                <ScalarProperty Name="TotalAverageValue" ColumnName="TotalAverageValue" />
+                <ScalarProperty Name="TotalLastPriceValue" ColumnName="TotalLastPriceValue" />
+                <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+                <ScalarProperty Name="PrintingCount" ColumnName="PrintingCount" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="Approved" ColumnName="Approved" />
+                <ScalarProperty Name="IsAutoCreated" ColumnName="IsAutoCreated" />
+                <ScalarProperty Name="IsCompleted" ColumnName="IsCompleted" />
+                <ScalarProperty Name="IsClosed" ColumnName="IsClosed" />
+                <ScalarProperty Name="PartsIssued" ColumnName="PartsIssued" />
+                <ScalarProperty Name="AuditDateTime" ColumnName="AuditDateTime" />
+                <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+                <ScalarProperty Name="ReqShipAction" ColumnName="ReqShipAction" />
+                <ScalarProperty Name="SiteID" ColumnName="SiteID" />
+                <ScalarProperty Name="HasPO" ColumnName="HasPO" />
+                <ScalarProperty Name="OrderBy" ColumnName="OrderBy" />
+                <ScalarProperty Name="VendorID" ColumnName="VendorID" />
+                <ScalarProperty Name="EmployeeName" ColumnName="EmployeeName" />
+                <ScalarProperty Name="DocCreatorID" ColumnName="DocCreatorID" />
+                <ScalarProperty Name="RequestTypeID" ColumnName="RequestTypeID" />
+                <ScalarProperty Name="ChargeTo" ColumnName="ChargeTo" />
+                <ScalarProperty Name="GLAccountNumber" ColumnName="GLAccountNumber" />
+                <ScalarProperty Name="GLAccountName" ColumnName="GLAccountName" />
+                <ScalarProperty Name="SourceCostCentre" ColumnName="SourceCostCentre" />
+                <ScalarProperty Name="MeterReading" ColumnName="MeterReading" />
+                <ScalarProperty Name="SvcChargeUpdated" ColumnName="SvcChargeUpdated" />
+                <ScalarProperty Name="SvcAuditUserID" ColumnName="SvcAuditUserID" />
+                <ScalarProperty Name="SvcAuditDatetime" ColumnName="SvcAuditDatetime" />
+                <ScalarProperty Name="Cancelled" ColumnName="Cancelled" />
+                <ScalarProperty Name="DateCancelled" ColumnName="DateCancelled" />
+                <ScalarProperty Name="cancelledBy" ColumnName="cancelledBy" />
+                <ScalarProperty Name="CancelReason" ColumnName="CancelReason" />
+                <ScalarProperty Name="RequisitionNo2" ColumnName="RequisitionNo2" />
+                <ScalarProperty Name="ReapairBox" ColumnName="ReapairBox" />
+                <ScalarProperty Name="RecordID" ColumnName="RecordID" />
+                <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+                <ScalarProperty Name="DivisionID" ColumnName="DivisionID" />
+                <ScalarProperty Name="JobID" ColumnName="JobID" />
+                <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+                <ScalarProperty Name="ReasonCode" ColumnName="ReasonCode" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PayEmployees">
+            <EntityTypeMapping TypeName="WMDBDEMOModel.PayEmployee">
+              <MappingFragment StoreEntitySet="PayEmployees">
+                <ScalarProperty Name="HasPHOT" ColumnName="HasPHOT" />
+                <ScalarProperty Name="HasWOT" ColumnName="HasWOT" />
+                <ScalarProperty Name="HasNOT" ColumnName="HasNOT" />
+                <ScalarProperty Name="TAUserID" ColumnName="TAUserID" />
+                <ScalarProperty Name="CostCentreID" ColumnName="CostCentreID" />
+                <ScalarProperty Name="ProcessType" ColumnName="ProcessType" />
+                <ScalarProperty Name="IsHandled" ColumnName="IsHandled" />
+                <ScalarProperty Name="LockTS" ColumnName="LockTS" />
+                <ScalarProperty Name="LockedBy" ColumnName="LockedBy" />
+                <ScalarProperty Name="AuditUserID" ColumnName="AuditUserID" />
+                <ScalarProperty Name="AuditDateTime" ColumnName="AuditDateTime" />
+                <ScalarProperty Name="AuditCompanyID" ColumnName="AuditCompanyID" />
+                <ScalarProperty Name="EnteredBy" ColumnName="EnteredBy" />
+                <ScalarProperty Name="Notes" ColumnName="Notes" />
+                <ScalarProperty Name="ApprovedDate" ColumnName="ApprovedDate" />
+                <ScalarProperty Name="ApprovedBy" ColumnName="ApprovedBy" />
+                <ScalarProperty Name="Approved" ColumnName="Approved" />
+                <ScalarProperty Name="GratuityDate" ColumnName="GratuityDate" />
+                <ScalarProperty Name="GratuityPaid" ColumnName="GratuityPaid" />
+                <ScalarProperty Name="ClockInLocID" ColumnName="ClockInLocID" />
+                <ScalarProperty Name="HasPhoto" ColumnName="HasPhoto" />
+                <ScalarProperty Name="HasFingerPrint" ColumnName="HasFingerPrint" />
+                <ScalarProperty Name="RequestType" ColumnName="RequestType" />
+                <ScalarProperty Name="ApprovalID" ColumnName="ApprovalID" />
+                <ScalarProperty Name="RequestID" ColumnName="RequestID" />
+                <ScalarProperty Name="DenyLogon" ColumnName="DenyLogon" />
+                <ScalarProperty Name="YearToDateOther" ColumnName="YearToDateOther" />
+                <ScalarProperty Name="YearToDateLocal" ColumnName="YearToDateLocal" />
+                <ScalarProperty Name="YearToDateState" ColumnName="YearToDateState" />
+                <ScalarProperty Name="YearToDateFederal" ColumnName="YearToDateFederal" />
+                <ScalarProperty Name="YearToDateGross" ColumnName="YearToDateGross" />
+                <ScalarProperty Name="QuarterToDateOther" ColumnName="QuarterToDateOther" />
+                <ScalarProperty Name="QuarterToDateLocal" ColumnName="QuarterToDateLocal" />
+                <ScalarProperty Name="QuarterToDateState" ColumnName="QuarterToDateState" />
+                <ScalarProperty Name="QuarterToDateFederal" ColumnName="QuarterToDateFederal" />
+                <ScalarProperty Name="QuarterToDateGross" ColumnName="QuarterToDateGross" />
+                <ScalarProperty Name="MonthToDateOther" ColumnName="MonthToDateOther" />
+                <ScalarProperty Name="MonthToDateLocal" ColumnName="MonthToDateLocal" />
+                <ScalarProperty Name="MonthToDateState" ColumnName="MonthToDateState" />
+                <ScalarProperty Name="MonthToDateFederal" ColumnName="MonthToDateFederal" />
+                <ScalarProperty Name="MonthToDateGross" ColumnName="MonthToDateGross" />
+                <ScalarProperty Name="UseTimeSheet" ColumnName="UseTimeSheet" />
+                <ScalarProperty Name="EmployeeID2" ColumnName="EmployeeID2" />
+                <ScalarProperty Name="EmployeeHoursPerDay" ColumnName="EmployeeHoursPerDay" />
+                <ScalarProperty Name="InsuranceNo" ColumnName="InsuranceNo" />
+                <ScalarProperty Name="InsuranceCoyID" ColumnName="InsuranceCoyID" />
+                <ScalarProperty Name="NHFStateID" ColumnName="NHFStateID" />
+                <ScalarProperty Name="NSITFStateID" ColumnName="NSITFStateID" />
+                <ScalarProperty Name="TaxStateID" ColumnName="TaxStateID" />
+                <ScalarProperty Name="TaxID" ColumnName="TaxID" />
+                <ScalarProperty Name="TaxOfficeMonthlyReturn" ColumnName="TaxOfficeMonthlyReturn" />
+                <ScalarProperty Name="TaxOfficeAnualReturn" ColumnName="TaxOfficeAnualReturn" />
+                <ScalarProperty Name="AutomaticTaxRelief" ColumnName="AutomaticTaxRelief" />
+                <ScalarProperty Name="TaxExcempted" ColumnName="TaxExcempted" />
+                <ScalarProperty Name="NHFStartDate" ColumnName="NHFStartDate" />
+                <ScalarProperty Name="NHFNumber" ColumnName="NHFNumber" />
+                <ScalarProperty Name="NHFEnabled" ColumnName="NHFEnabled" />
+                <ScalarProperty Name="NSITFStartDate" ColumnName="NSITFStartDate" />
+                <ScalarProperty Name="NSITFNumber" ColumnName="NSITFNumber" />
+                <ScalarProperty Name="NSITFEnabled" ColumnName="NSITFEnabled" />
+                <ScalarProperty Name="PermanetAddress2" ColumnName="PermanetAddress2" />
+                <ScalarProperty Name="PermanetAddress1" ColumnName="PermanetAddress1" />
+                <ScalarProperty Name="NextOfKinNumber" ColumnName="NextOfKinNumber" />
+                <ScalarProperty Name="NextOfKinAddr2" ColumnName="NextOfKinAddr2" />
+                <ScalarProperty Name="NextOfKinAddr1" ColumnName="NextOfKinAddr1" />
+                <ScalarProperty Name="NextOfKinName" ColumnName="NextOfKinName" />
+                <ScalarProperty Name="GradeStep" ColumnName="GradeStep" />
+                <ScalarProperty Name="GradeId" ColumnName="GradeId" />
+                <ScalarProperty Name="CommissionCalcMethod" ColumnName="CommissionCalcMethod" />
+                <ScalarProperty Name="CommissionPerc" ColumnName="CommissionPerc" />
+                <ScalarProperty Name="Commissionable" ColumnName="Commissionable" />
+                <ScalarProperty Name="DateConfirmed" ColumnName="DateConfirmed" />
+                <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+                <ScalarProperty Name="HireDate" ColumnName="HireDate" />
+                <ScalarProperty Name="PictureURL" ColumnName="PictureURL" />
+                <ScalarProperty Name="EmployeeManager" ColumnName="EmployeeManager" />
+                <ScalarProperty Name="EmployeeIndustryID" ColumnName="EmployeeIndustryID" />
+                <ScalarProperty Name="EmployeeSourceID" ColumnName="EmployeeSourceID" />
+                <ScalarProperty Name="EmployeeBranchID" ColumnName="EmployeeBranchID" />
+                <ScalarProperty Name="EmployeeRegionID" ColumnName="EmployeeRegionID" />
+                <ScalarProperty Name="EmployeeSection" ColumnName="EmployeeSection" />
+                <ScalarProperty Name="EmployeeDepartmentID" ColumnName="EmployeeDepartmentID" />
+                <ScalarProperty Name="EmployeeEmailAddress" ColumnName="EmployeeEmailAddress" />
+                <ScalarProperty Name="EmployeeNationalID" ColumnName="EmployeeNationalID" />
+                <ScalarProperty Name="EmployeeFax" ColumnName="EmployeeFax" />
+                <ScalarProperty Name="EmployeePhone" ColumnName="EmployeePhone" />
+                <ScalarProperty Name="EmployeeCountry" ColumnName="EmployeeCountry" />
+                <ScalarProperty Name="EmployeeState" ColumnName="EmployeeState" />
+                <ScalarProperty Name="EmployeeCity" ColumnName="EmployeeCity" />
+                <ScalarProperty Name="EmployeeAddress2" ColumnName="EmployeeAddress2" />
+                <ScalarProperty Name="EmployeeAddress1" ColumnName="EmployeeAddress1" />
+                <ScalarProperty Name="ActiveYN" ColumnName="ActiveYN" />
+                <ScalarProperty Name="JobCategory" ColumnName="JobCategory" />
+                <ScalarProperty Name="JobRole" ColumnName="JobRole" />
+                <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+                <ScalarProperty Name="EmployeeHeight" ColumnName="EmployeeHeight" />
+                <ScalarProperty Name="EmployeeWeight" ColumnName="EmployeeWeight" />
+                <ScalarProperty Name="Genotype" ColumnName="Genotype" />
+                <ScalarProperty Name="BloodGroup" ColumnName="BloodGroup" />
+                <ScalarProperty Name="NOfDependant" ColumnName="NOfDependant" />
+                <ScalarProperty Name="NoOfChildren" ColumnName="NoOfChildren" />
+                <ScalarProperty Name="MaritalStatus" ColumnName="MaritalStatus" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="Religion" ColumnName="Religion" />
+                <ScalarProperty Name="EthnicGroup" ColumnName="EthnicGroup" />
+                <ScalarProperty Name="Nationality" ColumnName="Nationality" />
+                <ScalarProperty Name="BankAccountNo2" ColumnName="BankAccountNo2" />
+                <ScalarProperty Name="BankID2" ColumnName="BankID2" />
+                <ScalarProperty Name="BankAccountNo" ColumnName="BankAccountNo" />
+                <ScalarProperty Name="BankID" ColumnName="BankID" />
+                <ScalarProperty Name="EmployeePasswordExpires" ColumnName="EmployeePasswordExpires" />
+                <ScalarProperty Name="EmployeePasswordDate" ColumnName="EmployeePasswordDate" />
+                <ScalarProperty Name="EmployeePasswordOld" ColumnName="EmployeePasswordOld" />
+                <ScalarProperty Name="EmployeePassword" ColumnName="EmployeePassword" />
+                <ScalarProperty Name="EmployeeUserName" ColumnName="EmployeeUserName" />
+                <ScalarProperty Name="EmployeeCategoryID" ColumnName="EmployeeCategoryID" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="EmployeeTitle" ColumnName="EmployeeTitle" />
+                <ScalarProperty Name="EmployeeTypeID" ColumnName="EmployeeTypeID" />
+                <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+                <ScalarProperty Name="DepartmentID" ColumnName="DepartmentID" />
+                <ScalarProperty Name="DivisionID" ColumnName="DivisionID" />
+                <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

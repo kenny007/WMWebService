@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="17b13ff0987b4d1d9d944455c44c8879" Name="Diagram1" ZoomLevel="31">
+        <EntityTypeShape EntityType="WMDBDEMOModel.PO_Detail" Width="1.5" PointX="8" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WMDBDEMOModel.PO_FollowupDetail" Width="1.5" PointX="13" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WMDBDEMOModel.PO_FollowupHeader" Width="1.5" PointX="10.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WMDBDEMOModel.PO_Header" Width="1.5" PointX="5.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WMDBDEMOModel.PT_Parts" Width="1.5" PointX="10.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WMDBDEMOModel.PT_RequisitionDetail" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WMDBDEMOModel.PT_RequisitionHeader" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <AssociationConnector Association="WMDBDEMOModel.FK_PO_Detail_PO_Header" ManuallyRouted="false" />
+        <AssociationConnector Association="WMDBDEMOModel.FK_PO_FollowupDetail_PO_FollowupDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="WMDBDEMOModel.FK_PT_RequisitionDetail_PT_RequisitionHeader" ManuallyRouted="false" />
+        <AssociationConnector Association="WMDBDEMOModel.FK_PT_RequisitionHeader_PT_RequisitionHeader" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="WMDBDEMOModel.PayEmployee" Width="1.5" PointX="13.375" PointY="7.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

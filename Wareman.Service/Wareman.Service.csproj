@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{48B23540-D58D-45B4-8B7F-5E1F8365C2C1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Wareman.Service</RootNamespace>
+    <AssemblyName>Wareman.Service</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clients.cs" />
+    <Compile Include="IServiceRepository.cs" />
+    <Compile Include="PayEmployee.cs">
+      <DependentUpon>WMWService.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PO_Detail.cs">
+      <DependentUpon>WMWService.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PO_FollowupDetail.cs">
+      <DependentUpon>WMWService.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PO_FollowupHeader.cs">
+      <DependentUpon>WMWService.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PO_Header.cs">
+      <DependentUpon>WMWService.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PT_Parts.cs">
+      <DependentUpon>WMWService.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PT_RequisitionDetail.cs">
+      <DependentUpon>WMWService.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PT_RequisitionHeader.cs">
+      <DependentUpon>WMWService.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceRepository.cs" />
+    <Compile Include="WMWService.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WMWService.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WMWService.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WMWService.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WMWService.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WMWService.edmx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="WMWService.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>WMWService.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="packages.config" />
+    <None Include="WMWService.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>WMWService.edmx</DependentUpon>
+      <LastGenOutput>WMWService.Context.cs</LastGenOutput>
+    </None>
+    <None Include="WMWService.edmx.diagram">
+      <DependentUpon>WMWService.edmx</DependentUpon>
+    </None>
+    <None Include="WMWService.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>WMWService.edmx</DependentUpon>
+      <LastGenOutput>WMWService.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Enums\" />
+    <Folder Include="Mappers\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

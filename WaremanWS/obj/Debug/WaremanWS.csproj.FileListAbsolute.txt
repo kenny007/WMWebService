@@ -1,0 +1,238 @@
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\WaremanWS.dll.config
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\WaremanWS.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\WaremanWS.pdb
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Antlr3.Runtime.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\EntityFramework.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\EntityFramework.SqlServer.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.Security.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.Security.Google.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Web.Infrastructure.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Newtonsoft.Json.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Owin.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Net.Http.Formatting.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.Helpers.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.Http.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.Http.Owin.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.Http.WebHost.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.Mvc.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.Optimization.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.Razor.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.WebPages.Deployment.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.WebPages.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.WebPages.Razor.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\WebGrease.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Newtonsoft.Json.xml
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Net.Http.Formatting.xml
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.Helpers.xml
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.Http.xml
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.Http.WebHost.xml
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.Mvc.xml
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.Optimization.xml
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.Razor.xml
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.WebPages.xml
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.WebPages.Deployment.xml
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.WebPages.Razor.xml
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Antlr3.Runtime.pdb
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\EntityFramework.xml
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\EntityFramework.SqlServer.xml
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.xml
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.Security.xml
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.Security.Google.xml
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.Http.Owin.xml
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\obj\Debug\WaremanWS.csprojResolveAssemblyReference.cache
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\obj\Debug\WaremanWS.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\obj\Debug\WaremanWS.pdb
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Ninject.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Ninject.Web.Common.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Ninject.Web.Mvc.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\WebActivatorEx.dll
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Ninject.xml
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Ninject.Web.Common.xml
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\Ninject.Web.Mvc.xml
+c:\users\adebayo kehinde\documents\visual studio 2013\Projects\WaremanWS\WaremanWS\bin\WebApiContrib.IoC.Ninject.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Breeze.ContextProvider.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Breeze.WebApi2.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Data.Edm.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Data.OData.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Spatial.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.Http.OData.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\WebActivator.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Data.Edm.xml
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Data.OData.xml
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Spatial.xml
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.Http.OData.xml
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\de\System.Spatial.resources.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\es\System.Spatial.resources.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\fr\System.Spatial.resources.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\it\System.Spatial.resources.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\ja\System.Spatial.resources.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\ko\System.Spatial.resources.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\ru\System.Spatial.resources.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Wareman.Service.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Wareman.Service.pdb
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\AutoMapper.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\AutoMapper.xml
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\CacheCow.Common.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\CacheCow.Server.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\CacheCow.Common.xml
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\CacheCow.Server.xml
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\CacheCow.Server.EntityTagStore.SqlServer.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\CacheCow.Server.EntityTagStore.SqlServer.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\WaremanWS.dll.config
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\WaremanWS.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\WaremanWS.pdb
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Antlr3.Runtime.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\AutoMapper.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Breeze.ContextProvider.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Breeze.WebApi2.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\CacheCow.Common.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\CacheCow.Server.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\CacheCow.Server.EntityTagStore.SqlServer.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\EntityFramework.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\EntityFramework.SqlServer.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Data.Edm.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Data.OData.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.Security.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Newtonsoft.Json.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Ninject.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Ninject.Web.Common.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Ninject.Web.Mvc.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Owin.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Net.Http.Formatting.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Spatial.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.Helpers.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.Http.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.Http.OData.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.Http.Owin.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.Http.WebHost.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.Mvc.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.Optimization.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.Razor.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.WebPages.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.WebPages.Razor.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Wareman.Service.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\WebActivator.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\WebActivatorEx.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\WebApiContrib.IoC.Ninject.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\WebGrease.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Wareman.Service.pdb
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\AutoMapper.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\CacheCow.Common.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\CacheCow.Server.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\CacheCow.Server.EntityTagStore.SqlServer.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Data.Edm.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Data.OData.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Ninject.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Ninject.Web.Common.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Ninject.Web.Mvc.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Spatial.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.Http.OData.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Newtonsoft.Json.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Net.Http.Formatting.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.Helpers.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.Http.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.Http.WebHost.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.Mvc.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.Optimization.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.Razor.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.WebPages.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.WebPages.Razor.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Antlr3.Runtime.pdb
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\EntityFramework.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\EntityFramework.SqlServer.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.Security.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\System.Web.Http.Owin.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\de\System.Spatial.resources.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\es\System.Spatial.resources.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\fr\System.Spatial.resources.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\it\System.Spatial.resources.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\ja\System.Spatial.resources.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\ko\System.Spatial.resources.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\ru\System.Spatial.resources.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\obj\Debug\WaremanWS.csprojResolveAssemblyReference.cache
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\obj\Debug\WaremanWS.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\WaremanWS\obj\Debug\WaremanWS.pdb

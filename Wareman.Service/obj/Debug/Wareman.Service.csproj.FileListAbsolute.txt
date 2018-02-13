@@ -1,0 +1,20 @@
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\Wareman.Service\bin\Debug\Wareman.Service.dll.config
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\Wareman.Service\bin\Debug\Wareman.Service.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\Wareman.Service\bin\Debug\Wareman.Service.pdb
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\Wareman.Service\bin\Debug\EntityFramework.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\Wareman.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\Wareman.Service\bin\Debug\EntityFramework.xml
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\Wareman.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\Wareman.Service\obj\Debug\Wareman.Service.csprojResolveAssemblyReference.cache
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\Wareman.Service\obj\Debug\Wareman.Service.dll
+C:\Users\ADEBAYO KEHINDE\Documents\Visual Studio 2013\Projects\WaremanWS\Wareman.Service\obj\Debug\Wareman.Service.pdb
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\Wareman.Service\bin\Debug\Wareman.Service.dll.config
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\Wareman.Service\bin\Debug\Wareman.Service.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\Wareman.Service\bin\Debug\Wareman.Service.pdb
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\Wareman.Service\bin\Debug\EntityFramework.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\Wareman.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\Wareman.Service\bin\Debug\EntityFramework.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\Wareman.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\Wareman.Service\obj\Debug\Wareman.Service.csprojResolveAssemblyReference.cache
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\Wareman.Service\obj\Debug\Wareman.Service.dll
+C:\Users\kennymore\Documents\Visual Studio 2013\Projects\WaremanWS\Wareman.Service\obj\Debug\Wareman.Service.pdb
